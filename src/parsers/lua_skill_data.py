@@ -63,6 +63,18 @@ end
 -- to a metatabled placeholder whose __index returns the bare key as a
 -- string and whose __call returns a tagged dict mirroring the call args.
 -- This lets us run any PoB data file without enumerating every helper.
+-- PoB uses the LuaJIT `bit` library for flag masks (bit.bor(ModFlag.X, ...)).
+-- Flags resolve to bare-name strings under our stubs, so keep the names:
+-- bor("A", "B") -> "A|B". Downstream consumers only need the labels.
+bit = {
+    bor = function(...)
+        local parts = {}
+        for _, v in ipairs({...}) do parts[#parts + 1] = tostring(v) end
+        return table.concat(parts, "|")
+    end,
+    band = function(a, b) return tostring(a) .. "&" .. tostring(b) end,
+    bnot = function(a) return "~" .. tostring(a) end,
+}
 local stub_mt = {
     __index = function(_, k) return k end,
     __call = function(self, ...) return { __stub_call = true, args = {...} } end,
@@ -170,8 +182,21 @@ def parse_skills_lua(path: Path) -> Dict[str, Dict[str, Any]]:
         flags=re.MULTILINE,
     )
 
-    full_script = LUA_PRELUDE + "\n" + body + "\n" + LUA_EPILOGUE
-    lua_table = L.execute(full_script)
+    # Since mid-2026 PoB2's data files are chunk *factories*:
+    #     return function(skills, mod, flag, skill) ... end
+    # Evaluate the chunk to get the factory and call it with our stub `skills`
+    # table and helpers. Older files (top-level `skills[...] = {...}`
+    # statements) still take the script path.
+    factory_re = r"^\s*return\s+function\s*\(\s*skills\s*,\s*mod\s*,\s*flag\s*,\s*skill\s*\)"
+    if re.search(factory_re, body, re.MULTILINE):
+        body = re.sub(r"^\s*---@cast.*$", "", body, flags=re.MULTILINE)  # LuaLS annotations
+        factory = L.execute(LUA_PRELUDE + "\n" + body)
+        g = L.globals()
+        factory(g.skills, g.mod, g.flag, g.skill)
+        lua_table = g.skills
+    else:
+        full_script = LUA_PRELUDE + "\n" + body + "\n" + LUA_EPILOGUE
+        lua_table = L.execute(full_script)
     py = _lua_to_python(lua_table)
     if not isinstance(py, dict):
         raise RuntimeError(f"Expected skills table to be a dict, got {type(py).__name__}")

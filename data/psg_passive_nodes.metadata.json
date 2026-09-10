@@ -1,0 +1,17 @@
+{
+ "dataset": "psg_passive_nodes",
+ "filename": "psg_passive_nodes.json",
+ "extracted_at": "2026-09-10T03:46:35Z",
+ "source_repo": "PathOfBuilding-PoE2",
+ "source_ref": "dev",
+ "source_commit": "ce566eac45ea8a86477f513c7ee65a1ebe60014e",
+ "source_commit_date": "2026-09-10T12:48:05+10:00",
+ "source_files": [
+  "src/TreeData/0_5/tree.lua"
+ ],
+ "extractor": "scripts/refresh_passive_tree_from_pob2.py",
+ "record_count": 4914,
+ "bytes": 2935632,
+ "sha256": "b93527d71ab6ce7eb66ad4579b6acb534553286a2809b2a157e8c2d650fe67f6",
+ "notes": "Node ids are the game's passive skill ids (same ids poe.ninja/PoB export). Positions computed from group+orbit like PoB."
+}

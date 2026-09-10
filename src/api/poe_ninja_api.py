@@ -8,7 +8,7 @@ import json
 import logging
 import re
 from typing import Dict, List, Optional, Any
-from urllib.parse import unquote
+from urllib.parse import quote, unquote
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -283,7 +283,7 @@ class PoeNinjaAPI:
                 return cached
 
         version = await self._read_sse_version(
-            f"{self.base_url}/poe2/api/events/characters/{account}"
+            f"{self.base_url}/poe2/api/events/characters/{quote(account, safe='')}"
         )
         if version is None:
             logger.warning(f"No list version from account events SSE for {account}")
@@ -291,7 +291,7 @@ class PoeNinjaAPI:
 
         await self.rate_limiter.acquire()
         try:
-            url = f"{self.base_url}/poe2/api/profile/characters/{account}/{version}"
+            url = f"{self.base_url}/poe2/api/profile/characters/{quote(account, safe='')}/{version}"
             response = await self.client.get(url)
             if response.status_code != 200:
                 logger.warning(f"Character list returned {response.status_code} for {account}")
@@ -331,7 +331,7 @@ class PoeNinjaAPI:
     ) -> Optional[Dict[str, Any]]:
         """Fetch the raw ``{type, charModel}`` blob via the profile API."""
         version = await self._read_sse_version(
-            f"{self.base_url}/poe2/api/events/character/{account}/{league_url}/{character}"
+            f"{self.base_url}/poe2/api/events/character/{quote(account, safe='')}/{league_url}/{quote(character, safe='')}"
         )
         if version is None:
             return None
@@ -339,7 +339,7 @@ class PoeNinjaAPI:
         try:
             url = (
                 f"{self.base_url}/poe2/api/profile/characters/"
-                f"{account}/{league_url}/{character}/model/{version}"
+                f"{quote(account, safe='')}/{league_url}/{quote(character, safe='')}/model/{version}"
             )
             response = await self.client.get(url)
             if response.status_code != 200:

@@ -3,8 +3,8 @@
   "patch_version": "0.5",
   "patch_name": "Return of the Ancients",
   "patch_released": "2026-05-29",
-  "data_revision": 12,
-  "released_as": "data-v0.5.0-r12",
+  "data_revision": 13,
+  "released_as": "data-v0.5.0-r13",
   "extracted_at": "2026-06-01T15:43:00Z",
   "extracted_by": "HivemindMinion (Claude Code) from HivemindOverlord's licensed PoE2 install + PoB2 community repo",
   "datasets": {
@@ -59,10 +59,10 @@
         "skill_gems.json",
         "metadata.json"
       ],
-      "record_count": 965,
-      "matched_effect_count": 872,
-      "source": "PoB2 origin/dev @ 9c2bf0316 (2026-05-30) \u2014 Gems.lua + Skills/*.lua joined view",
-      "note": "Refreshed 2026-06-12 from PoB2 origin/dev @ 623f6dde0 (2026-06-13) - 0.5-current. Data-correctness campaign C1."
+      "record_count": 966,
+      "matched_effect_count": 966,
+      "source": "PoB2 dev @ ce566eac4 (2026-09-10) - Gems.lua + Skills/*.lua joined view",
+      "note": "Refreshed 2026-09-10 via scripts/refresh_gems_from_pob2.py"
     },
     "skill_gems_v2": {
       "path": "data/game/skill_gems/",
@@ -70,14 +70,14 @@
         "skill_gems_v2.json",
         "metadata_v2.json"
       ],
-      "record_count": 1373,
+      "record_count": 1436,
       "coverage": {
-        "with_qualityStats": 338,
-        "with_levels": 1249,
-        "with_statSets": 1249
+        "with_qualityStats": 410,
+        "with_levels": 1436,
+        "with_statSets": 1435
       },
       "source": "PoB2 src/Data/Skills/*.lua via structural Lua parser (src/parsers/lua_skill_data.py)",
-      "note": "Refreshed 2026-06-12 from PoB2 origin/dev @ 623f6dde0. NOW INCLUDES spiritReservationFlat per level (campaign C1) - reservations were previously absent from the canonical dataset."
+      "note": "Refreshed 2026-09-10 from PoB2 dev @ ce566eac4 (2026-09-10) via scripts/refresh_skill_gems_from_pob2.py"
     },
     "stat_descriptions": {
       "path": "data/game/stat_descriptions/",

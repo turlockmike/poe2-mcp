@@ -99,7 +99,10 @@ where = ["."]
 include = ["src*"]
 
 [tool.setuptools.package-data]
-src = ["../data/*.json", "../config.yaml"]
+# Ship the canonical data/game tree with the wheel. The runtime resolves it relative to the
+# src package (src/data/game_data.py -> ../../data/game), so it must sit beside `src` in
+# site-packages exactly as it does in the repo.
+src = ["../data/*.json", "../data/game/**/*.json", "../data/game/**/*.md", "../config.yaml"]
 
 [tool.black]
 line-length = 100

@@ -1,0 +1,12 @@
+{
+ "source_repo": "PathOfBuilding-PoE2",
+ "source_ref": "dev",
+ "source_commit": "ce566eac45ea8a86477f513c7ee65a1ebe60014e",
+ "source_commit_date": "2026-09-10T12:48:05+10:00",
+ "extracted_at": "2026-09-10T03:47:56Z",
+ "extractor": "scripts/refresh_items_from_pob2.py",
+ "dataset": "uniques",
+ "filename": "uniques.json",
+ "record_count": 435,
+ "sha256": "612e98f616e9ace6069e00a72288e6250ba93248e00094840b420f2266f93fe0"
+}

@@ -8,6 +8,7 @@ Fetches character data from multiple sources with intelligent fallback:
 """
 
 import logging
+from urllib.parse import quote
 import re
 from typing import Optional, Dict, Any, List
 import httpx
@@ -403,7 +404,7 @@ class CharacterFetcher:
             # Format: data: {"version":4211492750}
             events_url = (
                 f"{settings.POE_NINJA_PROFILE_URL}/poe2/api/events/character/"
-                f"{account_name}/{league_slug}/{character_name}"
+                f"{quote(account_name, safe='')}/{league_slug}/{quote(character_name, safe='')}"
             )
 
             logger.info(f"Fetching character model ID from: {events_url}")
@@ -439,7 +440,7 @@ class CharacterFetcher:
             # Now fetch the character model using the ID
             model_url = (
                 f"{settings.POE_NINJA_PROFILE_URL}/poe2/api/profile/characters/"
-                f"{account_name}/{league_slug}/{character_name}/model/{model_id}"
+                f"{quote(account_name, safe='')}/{league_slug}/{quote(character_name, safe='')}/model/{model_id}"
             )
 
             logger.info(f"Fetching character model from: {model_url}")

@@ -56,6 +56,7 @@ try:
 
     # Fresh data provider - Single Source of Truth
     from .data.fresh_data_provider import get_fresh_data_provider
+    from .data import pob2_items
 
     # Local live-game readers (Client.txt log + client config INI)
     from .api.client_log_reader import ClientLogReader
@@ -97,6 +98,7 @@ except ImportError:
 
     # Fresh data provider - Single Source of Truth
     from src.data.fresh_data_provider import get_fresh_data_provider
+    from src.data import pob2_items
 
     # Local live-game readers (Client.txt log + client config INI)
     from src.api.client_log_reader import ClientLogReader
@@ -527,6 +529,8 @@ class PoE2BuildOptimizerMCP:
             # BASE ITEM DATA TOOLS (2 new tools)
             elif name == "list_all_base_items":
                 return await self._handle_list_all_base_items(arguments)
+            elif name == "inspect_unique":
+                return await self._handle_inspect_unique(arguments)
             elif name == "inspect_base_item":
                 return await self._handle_inspect_base_item(arguments)
             # MOD DATA TOOLS (4 new tools)
@@ -1429,13 +1433,25 @@ class PoE2BuildOptimizerMCP:
                 ),
                 types.Tool(
                     name="inspect_base_item",
-                    description="Get complete details for a specific base item type.",
+                    description="Get complete details for a specific base item type: implicit, weapon/defence numbers, requirements, socket limit and tags (PoB2-sourced), plus the .datc64 class record.",
                     inputSchema={
                         "type": "object",
                         "properties": {
-                            "item_name": {"type": "string", "description": "Name of the base item"}
+                            "item_name": {"type": "string", "description": "Name of the base item"},
+                            "name": {"type": "string", "description": "Alias for item_name"},
                         },
-                        "required": ["item_name"],
+                    },
+                ),
+                types.Tool(
+                    name="inspect_unique",
+                    description="Look up a unique item by name (or by base type): implicits, modifiers with ranges, variants, drop source, granted skills. Data from PoB2's Uniques tables.",
+                    inputSchema={
+                        "type": "object",
+                        "properties": {
+                            "name": {"type": "string", "description": "Unique item name (or a base type to list uniques on that base)"},
+                            "limit": {"type": "integer", "default": 5},
+                        },
+                        "required": ["name"],
                     },
                 ),
                 # MOD DATA TOOLS (4 new tools)
@@ -2385,7 +2401,27 @@ Tracked at https://github.com/HivemindOverlord/poe2-mcp/issues/61.
                 )
             ]
 
+    async def _handle_inspect_unique(self, args: dict) -> List[types.TextContent]:
+        name = (args.get("name") or "").strip()
+        if not name:
+            return [types.TextContent(type="text", text="Error: name is required")]
+        hits = pob2_items.find_uniques(name, limit=int(args.get("limit", 5) or 5))
+        if not hits:
+            return [types.TextContent(type="text", text=f"No unique matching '{name}' in data/game/uniques/uniques.json.")]
+        return [types.TextContent(type="text", text="\n\n---\n\n".join(pob2_items.format_unique(u) for u in hits))]
+
     async def _handle_search_items(self, args: dict) -> List[types.TextContent]:
+        # Fast path: name search across PoB2 bases + uniques (no DB needed).
+        q = (args.get("query") or "").strip()
+        if q:
+            hits = pob2_items.search_items(q, limit=int(args.get("limit", 20) or 20))
+            if hits:
+                lines = [f"# Items matching '{q}'  ({len(hits)})", ""]
+                for h in hits:
+                    tag = f"unique on {h.get('base')}" if h["kind"] == "unique" else f"base, {h.get('type')}"
+                    lines.append(f"- **{h['name']}** ({tag}) - {h.get('summary') or ''}")
+                lines.append("\nUse `inspect_unique` / `inspect_base_item` for full details.")
+                return [types.TextContent(type="text", text="\n".join(lines))]
         """Handle item search using .datc64 game database"""
         query = args["query"]
         filters = args.get("filters", {})
@@ -7072,10 +7108,20 @@ Could not extract account and character from URL.
     async def _handle_inspect_base_item(self, args: dict) -> List[types.TextContent]:
         """Get complete details for a specific base item"""
         try:
-            item_name = args.get("item_name", "").strip()
+            item_name = (args.get("item_name") or args.get("name") or "").strip()
 
             if not item_name:
                 return [types.TextContent(type="text", text="Error: item_name is required")]
+
+            # PoB2 base record first: it carries implicit / weapon / defence / req / tags,
+            # which the .datc64 class table below does not.
+            pob_base = pob2_items.find_base(item_name)
+            if pob_base:
+                text = pob2_items.format_base(pob_base)
+                same_name = [u["name"] for u in pob2_items.uniques() if u.get("base", "").lower() == pob_base["name"].lower()]
+                if same_name:
+                    text += "\n\n**Uniques on this base:** " + ", ".join(sorted(same_name))
+                return [types.TextContent(type="text", text=text)]
 
             # Get base items from FreshDataProvider
             fresh_provider = get_fresh_data_provider()
