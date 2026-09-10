@@ -57,6 +57,7 @@ try:
     # Fresh data provider - Single Source of Truth
     from .data.fresh_data_provider import get_fresh_data_provider
     from .data import pob2_items
+    from .knowledge import tools as knowledge_tools
 
     # Local live-game readers (Client.txt log + client config INI)
     from .api.client_log_reader import ClientLogReader
@@ -99,6 +100,7 @@ except ImportError:
     # Fresh data provider - Single Source of Truth
     from src.data.fresh_data_provider import get_fresh_data_provider
     from src.data import pob2_items
+    from src.knowledge import tools as knowledge_tools
 
     # Local live-game readers (Client.txt log + client config INI)
     from src.api.client_log_reader import ClientLogReader
@@ -437,6 +439,11 @@ class PoE2BuildOptimizerMCP:
         return result
 
     async def _dispatch_tool(self, name: str, arguments: dict) -> List[types.TextContent]:
+        if name in knowledge_tools.TOOL_NAMES:
+            return await knowledge_tools.handle(name, arguments or {})
+        return await self._dispatch_tool_inner(name, arguments)
+
+    async def _dispatch_tool_inner(self, name: str, arguments: dict) -> List[types.TextContent]:
         """
         Dispatches to the appropriate internal handler
 
@@ -1648,7 +1655,7 @@ class PoE2BuildOptimizerMCP:
                         },
                     },
                 ),
-            ]
+            ] + knowledge_tools.tool_definitions()
 
         @self.server.call_tool()
         async def handle_call_tool(name: str, arguments: dict) -> List[types.TextContent]:
@@ -1662,6 +1669,12 @@ class PoE2BuildOptimizerMCP:
         async def handle_list_resources() -> List[types.Resource]:
             """List available resources"""
             return [
+                types.Resource(
+                    uri="poe2://knowledge/guide",
+                    name="Crafting knowledge guide",
+                    description="What the crafting knowledge base holds, its trust tiers, and how to use the knowledge_* tools.",
+                    mimeType="text/markdown",
+                ),
                 types.Resource(
                     uri="poe2://game-data/items",
                     name="Item Database",
@@ -1685,6 +1698,9 @@ class PoE2BuildOptimizerMCP:
         @self.server.read_resource()
         async def handle_read_resource(uri: str) -> str:
             """Read resource data"""
+            if str(uri) == "poe2://knowledge/guide":
+                res = await knowledge_tools.handle("knowledge_overview", {})
+                return res[0].text
             if uri == "poe2://game-data/items":
                 items = await self.db_manager.get_all_items()
                 return json.dumps(items, indent=2)

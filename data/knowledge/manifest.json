@@ -1,0 +1,52 @@
+{
+ "built_at": "2026-09-10T05:43:37Z",
+ "sources": {
+  "poe2-knowledge": "C:\\Users\\micha\\AppData\\Local\\Temp\\kb",
+  "compendium": "compendium.html"
+ },
+ "docs": 2825,
+ "by_kind": {
+  "video_guide": 82,
+  "guide": 68,
+  "video_digest": 21,
+  "recipe": 113,
+  "patch_note": 2,
+  "doc": 89,
+  "canonical": 35,
+  "crafting_doc": 9,
+  "dispute": 36,
+  "economy": 14,
+  "fact": 1968,
+  "mechanic": 9,
+  "opinion": 377,
+  "crafting_spec": 2
+ },
+ "by_tier": {
+  "creator": 132,
+  "analysis": 263,
+  "canonical": 48,
+  "unverified": 2220,
+  "dispute": 36,
+  "verified": 94,
+  "opinion": 32
+ },
+ "principles": 92,
+ "mod_priority_rows": 11,
+ "terms": {
+  "catalysts": 3,
+  "charges": 0,
+  "currencies": 39,
+  "essences": 16,
+  "omens": 47,
+  "tablets": 0,
+  "waystones": 3
+ },
+ "contamination_terms": 109,
+ "docs_sha256": "6851c1551b8c954707f7543995a9e0fa2859cb7acfa6bfaa65b66ffc7f0e20e5",
+ "embeddings": {
+  "model": "BAAI/bge-small-en-v1.5",
+  "chunks": 12708,
+  "dims": 384,
+  "bytes": 7958305
+ }
+}

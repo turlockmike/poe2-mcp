@@ -73,6 +73,7 @@ dependencies = [
 
 [project.optional-dependencies]
 trade = ["playwright>=1.40.0"]
+semantic = ["fastembed>=0.3", "numpy>=1.26"]   # semantic knowledge search (optional; BM25 works without)
 dev = [
     "pytest>=7.4.0",
     "pytest-asyncio>=0.21.0",
@@ -83,7 +84,7 @@ dev = [
     "mypy>=1.7.0",
     "isort>=5.12.0",
 ]
-all = ["poe2-mcp[trade,dev]"]
+all = ["poe2-mcp[trade,dev,semantic]"]
 
 [project.urls]
 Homepage = "https://github.com/HivemindOverlord/poe2-mcp"
@@ -102,7 +103,7 @@ include = ["src*"]
 # Ship the canonical data/game tree with the wheel. The runtime resolves it relative to the
 # src package (src/data/game_data.py -> ../../data/game), so it must sit beside `src` in
 # site-packages exactly as it does in the repo.
-src = ["../data/*.json", "../data/game/**/*.json", "../data/game/**/*.md", "../config.yaml"]
+src = ["../data/*.json", "../data/game/**/*.json", "../data/game/**/*.md", "../data/knowledge/*.json", "../data/knowledge/*.jsonl", "../data/knowledge/*.npz", "../config.yaml"]
 
 [tool.black]
 line-length = 100

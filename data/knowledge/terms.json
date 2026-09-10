@@ -1,0 +1,662 @@
+{
+ "catalysts": [
+  {
+   "name": "The ONLY path where catalyst quality biases roll odds is `Omen of Catalysing Exaltation`",
+   "family": "catalysts",
+   "effect": "it consumes the quality to bias one Exalt toward the tagged family. Plain catalyst quality (no omen) = magnitude only.",
+   "note": null
+  },
+  {
+   "name": "Intrinsic Catalyst (PoE1)",
+   "family": "catalysts",
+   "effect": "**flagged in CONTAMINATION-WORDS.md**",
+   "note": null
+  },
+  {
+   "name": "Unstable Catalyst (PoE1)",
+   "family": "catalysts",
+   "effect": "**flagged in CONTAMINATION-WORDS.md**",
+   "note": null
+  }
+ ],
+ "charges": [],
+ "currencies": [
+  {
+   "name": "Blacksmith's Whetstone",
+   "family": "currencies",
+   "effect": "quality on martial weapons",
+   "note": null
+  },
+  {
+   "name": "Arcanist's Etcher",
+   "family": "currencies",
+   "effect": "quality on wands/staves/sceptres",
+   "note": null
+  },
+  {
+   "name": "Armourer's Scrap",
+   "family": "currencies",
+   "effect": "quality on armour",
+   "note": null
+  },
+  {
+   "name": "Glassblower's Bauble",
+   "family": "currencies",
+   "effect": "quality on flasks",
+   "note": null
+  },
+  {
+   "name": "Gemcutter's Prism",
+   "family": "currencies",
+   "effect": "quality on skill gems",
+   "note": null
+  },
+  {
+   "name": "Scroll of Wisdom",
+   "family": "currencies",
+   "effect": "identifies an item",
+   "note": null
+  },
+  {
+   "name": "Orb of Transmutation",
+   "family": "currencies",
+   "effect": "Normal → Magic (1 mod)",
+   "note": null
+  },
+  {
+   "name": "Greater Orb of Transmutation",
+   "family": "currencies",
+   "effect": "same, mod-level ≥55",
+   "note": null
+  },
+  {
+   "name": "Perfect Orb of Transmutation",
+   "family": "currencies",
+   "effect": "same, mod-level ≥70",
+   "note": null
+  },
+  {
+   "name": "Orb of Alchemy",
+   "family": "currencies",
+   "effect": "Normal/Magic → Rare (4 mods)",
+   "note": null
+  },
+  {
+   "name": "Orb of Chance",
+   "family": "currencies",
+   "effect": "Normal → Unique (or destroys)",
+   "note": null
+  },
+  {
+   "name": "Regal Orb",
+   "family": "currencies",
+   "effect": "Magic → Rare (+1 mod)",
+   "note": null
+  },
+  {
+   "name": "Orb of Augmentation",
+   "family": "currencies",
+   "effect": "add mod to Magic",
+   "note": null
+  },
+  {
+   "name": "Greater Orb of Augmentation",
+   "family": "currencies",
+   "effect": "same, mod-level ≥55",
+   "note": null
+  },
+  {
+   "name": "Perfect Orb of Augmentation",
+   "family": "currencies",
+   "effect": "same, mod-level ≥70",
+   "note": null
+  },
+  {
+   "name": "Exalted Orb",
+   "family": "currencies",
+   "effect": "add mod to Rare",
+   "note": null
+  },
+  {
+   "name": "Greater Exalted Orb",
+   "family": "currencies",
+   "effect": "same, mod-level ≥35",
+   "note": null
+  },
+  {
+   "name": "Perfect Exalted Orb",
+   "family": "currencies",
+   "effect": "same, mod-level ≥50",
+   "note": null
+  },
+  {
+   "name": "Chaos Orb",
+   "family": "currencies",
+   "effect": "**remove random mod + add new random mod** (NOT full reroll — PoE1 behavior differs)",
+   "note": null
+  },
+  {
+   "name": "Greater Chaos Orb",
+   "family": "currencies",
+   "effect": "same, mod-level ≥35",
+   "note": null
+  },
+  {
+   "name": "Perfect Chaos Orb",
+   "family": "currencies",
+   "effect": "same, mod-level ≥50",
+   "note": null
+  },
+  {
+   "name": "Divine Orb",
+   "family": "currencies",
+   "effect": "reroll numeric values of existing mods",
+   "note": null
+  },
+  {
+   "name": "Orb of Annulment",
+   "family": "currencies",
+   "effect": "remove random mod",
+   "note": null
+  },
+  {
+   "name": "Fracturing Orb",
+   "family": "currencies",
+   "effect": "fracture a random mod on a Rare with ≥4 mods (lock it in place)",
+   "note": null
+  },
+  {
+   "name": "Vaal Orb",
+   "family": "currencies",
+   "effect": "modify unpredictably + Corrupt",
+   "note": null
+  },
+  {
+   "name": "Mirror of Kalandra",
+   "family": "currencies",
+   "effect": "create a mirrored copy",
+   "note": null
+  },
+  {
+   "name": "Hinekora's Lock",
+   "family": "currencies",
+   "effect": "foresee result of next currency (preview/commit mechanic)",
+   "note": null
+  },
+  {
+   "name": "Lesser Jeweller's Orb",
+   "family": "currencies",
+   "effect": "skill gem → 3 support sockets",
+   "note": null
+  },
+  {
+   "name": "Greater Jeweller's Orb",
+   "family": "currencies",
+   "effect": "skill gem → 4 support sockets",
+   "note": null
+  },
+  {
+   "name": "Perfect Jeweller's Orb",
+   "family": "currencies",
+   "effect": "skill gem → 5 support sockets",
+   "note": null
+  },
+  {
+   "name": "Artificer's Orb",
+   "family": "currencies",
+   "effect": "add Augment Socket (rune socket) to martial weapon/wand/staff/armour",
+   "note": null
+  },
+  {
+   "name": "Orb of Scouring",
+   "family": "currencies",
+   "effect": "PoE1 only. POE2 uses Chaos/Annul/Fracture combos to rework items.",
+   "note": null
+  },
+  {
+   "name": "Orb of Alteration / Orb of Mirror-scale reroll of Magic items",
+   "family": "currencies",
+   "effect": "PoE1.",
+   "note": null
+  },
+  {
+   "name": "Orb of Regret",
+   "family": "currencies",
+   "effect": "PoE1 passive respec. POE2 respec uses Gold.",
+   "note": null
+  },
+  {
+   "name": "Essence (as currency family)",
+   "family": "currencies",
+   "effect": "POE2 has essences but not by PoE1 naming.",
+   "note": null
+  },
+  {
+   "name": "Fossils + Resonators",
+   "family": "currencies",
+   "effect": "PoE1 only.",
+   "note": null
+  },
+  {
+   "name": "Harvest crafts",
+   "family": "currencies",
+   "effect": "PoE1 / not in POE2 0.4.",
+   "note": null
+  },
+  {
+   "name": "Beastcrafting",
+   "family": "currencies",
+   "effect": "PoE1 only.",
+   "note": null
+  },
+  {
+   "name": "Syndicate crafts",
+   "family": "currencies",
+   "effect": "PoE1 only.",
+   "note": null
+  }
+ ],
+ "essences": [
+  {
+   "name": "Lesser, (Standard), Greater",
+   "family": "essences",
+   "effect": "upgrade Magic → Rare with guaranteed mod",
+   "note": null
+  },
+  {
+   "name": "Perfect",
+   "family": "essences",
+   "effect": "remove random mod + add guaranteed mod on a Rare",
+   "note": null
+  },
+  {
+   "name": "Corrupted",
+   "family": "essences",
+   "effect": "special behavior, vaal-derived",
+   "note": null
+  },
+  {
+   "name": "Essence of the Mind (mana/max-mana)",
+   "family": "essences",
+   "effect": "used in breach ring caster craft for %max mana on rings",
+   "note": null
+  },
+  {
+   "name": "Essence of Delirium (random Notable",
+   "family": "essences",
+   "effect": "body armour)",
+   "note": null
+  },
+  {
+   "name": "Essence of Horror (socketed item effect",
+   "family": "essences",
+   "effect": "gloves/boots)",
+   "note": null
+  },
+  {
+   "name": "Essence of Insanity (double enchantments on corruption",
+   "family": "essences",
+   "effect": "belts)",
+   "note": null
+  },
+  {
+   "name": "Perfect Essence of the Mind",
+   "family": "essences",
+   "effect": "rings only — guarantees (4-6)% increased max Mana prefix. Canonical for caster breach rings.",
+   "note": null
+  },
+  {
+   "name": "Essence of the Mind (Lesser/Standard/Greater)",
+   "family": "essences",
+   "effect": "guarantees flat max mana. Valid for breach rings at lower tiers.",
+   "note": null
+  },
+  {
+   "name": "Greater Essence of Abrasion",
+   "family": "essences",
+   "effect": "weapons — flat phys damage, auto-promotes Magic → Rare. Step 1 of Scorpius's magic-base anchor craft.",
+   "note": null
+  },
+  {
+   "name": "Perfect Essence of Abrasion",
+   "family": "essences",
+   "effect": "weapons — (15-20)% / (25-33)% gain-as-extra-physical (1H/2H). Step 3.",
+   "note": null
+  },
+  {
+   "name": "Perfect Essence of Electricity / Ice / Flames",
+   "family": "essences",
+   "effect": "weapons — extra element-as-damage. Variant versions of Step 3 for elemental builds.",
+   "note": null
+  },
+  {
+   "name": "Perfect Essence of Haste",
+   "family": "essences",
+   "effect": "weapons — (20-25)% chance Onslaught on kill. Scorpius's Step 6.",
+   "note": null
+  },
+  {
+   "name": "Perfect Essence of Battle",
+   "family": "essences",
+   "effect": "weapons — +3 (1H) / +5 (2H) attack skill levels. Scorpius's Step 7.",
+   "note": null
+  },
+  {
+   "name": "Essence of Anger / Anguish / Dread / Greed / Loathing / Misery / Spite / Torment / Wrath / Woe / Fear / Contempt / Scorn / Sorrow / Suffering / Zeal / Rage / Doubt / Envy / Hatred",
+   "family": "essences",
+   "effect": "all PoE1.",
+   "note": null
+  },
+  {
+   "name": "Remnant of Corruption",
+   "family": "essences",
+   "effect": "PoE1 essence farming mechanic.",
+   "note": null
+  }
+ ],
+ "omens": [
+  {
+   "name": "Omen of Refreshment",
+   "family": "omens",
+   "effect": "flask/charm recovery on low life",
+   "note": null
+  },
+  {
+   "name": "Omen of Resurgence",
+   "family": "omens",
+   "effect": "life/mana/ES restore on low life",
+   "note": null
+  },
+  {
+   "name": "Omen of Amelioration",
+   "family": "omens",
+   "effect": "75% XP loss prevention",
+   "note": null
+  },
+  {
+   "name": "Omen of Whittling",
+   "family": "omens",
+   "effect": "next Chaos removes lowest-level mod",
+   "note": null
+  },
+  {
+   "name": "Omen of Sinistral Erasure",
+   "family": "omens",
+   "effect": "next Chaos removes only prefix mods",
+   "note": null
+  },
+  {
+   "name": "Omen of Dextral Erasure",
+   "family": "omens",
+   "effect": "next Chaos removes only suffix mods",
+   "note": null
+  },
+  {
+   "name": "Omen of Sinistral Alchemy",
+   "family": "omens",
+   "effect": "Alchemy → max prefixes",
+   "note": null
+  },
+  {
+   "name": "Omen of Dextral Alchemy",
+   "family": "omens",
+   "effect": "Alchemy → max suffixes",
+   "note": null
+  },
+  {
+   "name": "Omen of Sinistral Coronation",
+   "family": "omens",
+   "effect": "Regal adds prefix only",
+   "note": null
+  },
+  {
+   "name": "Omen of Dextral Coronation",
+   "family": "omens",
+   "effect": "Regal adds suffix only",
+   "note": null
+  },
+  {
+   "name": "Omen of Greater Exaltation",
+   "family": "omens",
+   "effect": "next Exalt adds 2 mods",
+   "note": null
+  },
+  {
+   "name": "Omen of Sinistral Exaltation",
+   "family": "omens",
+   "effect": "next Exalt adds prefix only",
+   "note": null
+  },
+  {
+   "name": "Omen of Dextral Exaltation",
+   "family": "omens",
+   "effect": "next Exalt adds suffix only",
+   "note": null
+  },
+  {
+   "name": "Omen of Homogenising Exaltation",
+   "family": "omens",
+   "effect": "next Exalt adds mod matching existing mod type",
+   "note": "0.4 TEMPLE LEAGUE: NO NEW SUPPLY. GGG disabled from drop pool. Legacy stock persists on characters that held them pre-removal; continues onto Standard at league-end. For fresh Temple crafting: treat as unavailable. Market price climbing on Standard residual. (GGG patch notes: pathofexile.com/forum/view-thread/3883495)"
+  },
+  {
+   "name": "Omen of Homogenising Coronation",
+   "family": "omens",
+   "effect": "next Regal adds mod matching existing mod type",
+   "note": "same — 0.4 Temple: no new supply; Standard-league residual only"
+  },
+  {
+   "name": "Omen of Catalysing Exaltation",
+   "family": "omens",
+   "effect": "next Exalt consumes catalyst quality for mod-chance boost",
+   "note": null
+  },
+  {
+   "name": "Omen of Greater Annulment",
+   "family": "omens",
+   "effect": "next Annul removes 2 mods",
+   "note": null
+  },
+  {
+   "name": "Omen of Sinistral Annulment",
+   "family": "omens",
+   "effect": "next Annul removes prefix only",
+   "note": null
+  },
+  {
+   "name": "Omen of Dextral Annulment",
+   "family": "omens",
+   "effect": "next Annul removes suffix only",
+   "note": null
+  },
+  {
+   "name": "Omen of Light",
+   "family": "omens",
+   "effect": "next Annul removes only Desecrated mods",
+   "note": null
+  },
+  {
+   "name": "Omen of Sinistral Crystallisation",
+   "family": "omens",
+   "effect": "next Perfect/Corrupted Essence removes prefix only",
+   "note": null
+  },
+  {
+   "name": "Omen of Dextral Crystallisation",
+   "family": "omens",
+   "effect": "next Perfect/Corrupted Essence removes suffix only",
+   "note": null
+  },
+  {
+   "name": "Omen of Sinistral Necromancy",
+   "family": "omens",
+   "effect": "next Desecration adds prefix only",
+   "note": null
+  },
+  {
+   "name": "Omen of Dextral Necromancy",
+   "family": "omens",
+   "effect": "next Desecration adds suffix only",
+   "note": null
+  },
+  {
+   "name": "Omen of the Sovereign",
+   "family": "omens",
+   "effect": "next Weapon/Jewellery Desecration guarantees random **Ulaman** mod",
+   "note": null
+  },
+  {
+   "name": "Omen of the Liege",
+   "family": "omens",
+   "effect": "next Weapon/Jewellery Desecration guarantees random **Amanamu** mod",
+   "note": null
+  },
+  {
+   "name": "Omen of the Blackblooded",
+   "family": "omens",
+   "effect": "next Weapon/Jewellery Desecration guarantees random **Kurgal** mod",
+   "note": null
+  },
+  {
+   "name": "Omen of Abyssal Echoes",
+   "family": "omens",
+   "effect": "next Desecrated mod reveal allows ONE reroll of options",
+   "note": "NOTE: Belton claimed this was \"6 options vs 3\" — tier-1 says \"one reroll of options\" — Belton likely wrong, flag for correction"
+  },
+  {
+   "name": "Omen of Putrefaction",
+   "family": "omens",
+   "effect": "next Desecration replaces all mods with 6 unrevealed corrupted ones",
+   "note": null
+  },
+  {
+   "name": "Omen of Corruption",
+   "family": "omens",
+   "effect": "Vaal Orb always changes",
+   "note": null
+  },
+  {
+   "name": "Omen of the Blessed",
+   "family": "omens",
+   "effect": "next Divine rerolls implicit only",
+   "note": null
+  },
+  {
+   "name": "Omen of Sanctification",
+   "family": "omens",
+   "effect": "Divine Orb on Rare → Sanctifies it. **Sanctified state is TERMINAL: each non-fractured mod's value is rerolled within tier range, then independently multiplied by a random factor in [0.8x, 1.2x] (0.01 increments → 41 discrete values per mod), rounded up on fractions. Fractured mods are FROZEN (immune to both phases). After commit, the item gains `sanctified: true` and cannot be modified by any crafting currency (Chaos/Exalt/Annul/Whittling/omens/Recombinator) — same lockout shape as Corruption but produced by Divine-Orb-with-Omen instead of Vaal Orb.** \"Sanctification with Locks\" = Hinekora's Lock retry-loop: preview the Sanctification outcome, abort via non-Sanctification Divine Orb if undesired, re-Lock and retry. Per-attempt success for +3 → +4 on a non-fractured target mod = 4/41 ≈ 9.76% (multiplier values 1.17, 1.18, 1.19, 1.20). Belton verbatim source: YouTube `Qs-Is4AgHXY` (2026-01).",
+   "note": null
+  },
+  {
+   "name": "Omen of Chance",
+   "family": "omens",
+   "effect": "next Orb of Chance won't destroy item",
+   "note": null
+  },
+  {
+   "name": "Omen of the Ancients",
+   "family": "omens",
+   "effect": "next Orb of Chance → random Unique of same class",
+   "note": null
+  },
+  {
+   "name": "Omen of Chaotic Rarity",
+   "family": "omens",
+   "effect": "Chaos on waystone → Item Rarity mods",
+   "note": null
+  },
+  {
+   "name": "Omen of Chaotic Quantity",
+   "family": "omens",
+   "effect": "Chaos on waystone → Pack Size mods",
+   "note": null
+  },
+  {
+   "name": "Omen of Chaotic Monsters",
+   "family": "omens",
+   "effect": "Chaos on waystone → Rare/Magic Monster mods",
+   "note": null
+  },
+  {
+   "name": "Omen of Answered Prayers",
+   "family": "omens",
+   "effect": "next Shrine bonus",
+   "note": null
+  },
+  {
+   "name": "Omen of Secret Compartments",
+   "family": "omens",
+   "effect": "next Strongbox reopenable",
+   "note": null
+  },
+  {
+   "name": "Omen of the Hunt",
+   "family": "omens",
+   "effect": "next possessed monster releases Azmeri Spirit",
+   "note": null
+  },
+  {
+   "name": "Omen of Reinforcements",
+   "family": "omens",
+   "effect": "next Rogue Exile summons ally",
+   "note": null
+  },
+  {
+   "name": "Omen of Gambling",
+   "family": "omens",
+   "effect": "50% chance next gamble free (gold)",
+   "note": null
+  },
+  {
+   "name": "Omen of Bartering",
+   "family": "omens",
+   "effect": "next sold item mis-assessed by vendor",
+   "note": null
+  },
+  {
+   "name": "Omen of Recombination",
+   "family": "omens",
+   "effect": "next Recombination is \"Lucky\"",
+   "note": null
+  },
+  {
+   "name": "Homogenising Exaltation + Homogenising Coronation",
+   "family": "omens",
+   "effect": "RESOLVED: **Belton CORRECT in spirit.** GGG 0.4 patch notes (pathofexile.com/forum/view-thread/3883495): \"disabled from dropping. Existing items are still functional.\" Omens remain in game data (poe2db correctly lists them) but NEW supply is cut. Market is a depleting legacy pool. Belton's compression to \"removed\" is imprecise but practically right for framework purposes. Omens table entries above should be read with an accessibility annotation (pending: add a 🔒 marker for \"exists in game but not in drop pool\").",
+   "note": null
+  },
+  {
+   "name": "Abyssal Echoes",
+   "family": "omens",
+   "effect": "RESOLVED: **Belton WRONG.** Tier-1 (both A and B agree): \"the next time you reveal Desecrated modifiers you can reroll the options once\" — one reroll of the normal 3-option reveal. Belton's \"6 options instead of 3\" is a misread; the effective behavior is 3+3 draws (6 samples with reroll structure), not a 6-pick expansion. Corrected in Belton + Scorpius files.",
+   "note": null
+  },
+  {
+   "name": "Omen of Amelioration is POE2 (75% XP loss)",
+   "family": "omens",
+   "effect": "do not ban",
+   "note": null
+  }
+ ],
+ "tablets": [],
+ "waystones": [
+  {
+   "name": "Modifier roll ranges scale with tier",
+   "family": "waystones",
+   "effect": "higher tiers have larger ranges for explicit mods. Per WebSearch: \"Higher tier waystones have larger ranges for modifier rolls, making the higher tiers more dangerous and valuable.\"",
+   "note": null
+  },
+  {
+   "name": "XP gain scales with tier",
+   "family": "waystones",
+   "effect": "primary source of post-campaign character XP comes from T15-T16 farming.",
+   "note": null
+  },
+  {
+   "name": "Boss/Pinnacle access",
+   "family": "waystones",
+   "effect": "certain pinnacle encounters require specific tier minimums.",
+   "note": null
+  }
+ ]
+}

@@ -275,6 +275,43 @@ python -c "import re; print(len(re.findall(r'types\.Tool\(\s*name=', open('src/m
 
 ---
 
+## Crafting Knowledge Base (new)
+
+Beyond game data, the server ships a curated **crafting knowledge base**: ~2,800 documents
+searchable by BM25 (and semantically, if you install the optional extra), built from two sources:
+
+- A Markdown KB grown across patches 0.4 and 0.5 with a **trust hierarchy**: canonical allowlists
+  from poe2db/GGG, verified atomic facts, costed crafting methods, disputes where sources disagree,
+  and a list of PoE1-only terms that must never appear in a PoE2 answer.
+- A **0.5 crafting compendium**: 82 creator video guides (ASaVeQ, Keyson, LilBotQ, XTheFarmerX) with
+  TL;DR / key numbers / method / economics per video plus full transcripts, 92 cross-video
+  principles with citations, and a slot-by-slot "what makes a rare sell" reference.
+
+| Tool | Use it for |
+|---|---|
+| `knowledge_overview` | What's in the KB, what the tiers mean, how to use the tools. Call once. |
+| `knowledge_search` | Any crafting question. Returns ranked snippets with a trust tier and a `doc_id`. Filters: kinds, tiers, slot, channel, patch. |
+| `knowledge_get` | A full document or one section (`Method`, `Economics`, `transcript`, ...). |
+| `knowledge_list` | Browse without searching: "all 0.5 recipes for rings", "Keyson's videos". |
+| `crafting_principles` | Market, EV, bankroll, batch and timing rules per creator, each with the videos it came from. |
+| `mod_priorities` | Per slot: where value lives (prefix/suffix), top mods, base to hunt, dead mods. |
+| `crafting_term` | Confirm an omen / essence / catalyst / currency exists and what it does (tier-1 allowlists). |
+| `check_poe1_contamination` | Lint a draft answer for PoE1-only terms (Scouring, Harvest, metacrafting, PoE1 essence names...). |
+
+Every hit carries a **tier**: `canonical` > `verified` > `analysis` > `creator` > `dispute` > `opinion` > `unverified`.
+Searches exclude `opinion`/`unverified` unless asked. All divine/exalt figures in the KB are dated
+snapshots; use live prices for current numbers.
+
+A recommended agent loop: `knowledge_overview` once → `knowledge_search` → `knowledge_get` on the one or
+two docs that matter → `mod_priorities(slot)` before recommending a craft → `check_poe1_contamination`
+on the draft answer.
+
+**Semantic search** (optional): `pip install "poe2-mcp[semantic]"` adds `fastembed`; the corpus vectors
+ship with the package (`data/knowledge/embeddings.npz`) so only the query is embedded at runtime. Without
+it, keyword search still works. The MCP resource `poe2://knowledge/guide` carries the same overview.
+
+Rebuilding the KB from its sources: `python scripts/build_knowledge.py --kb <poe2-knowledge checkout> --compendium <html> [--embed]`.
+
 ## Example Usage
 
 Once configured, just talk to your AI naturally:

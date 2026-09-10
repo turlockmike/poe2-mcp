@@ -1,0 +1,438 @@
+{
+ "Chieftain": {
+  "category": "Ascendancies / Classes",
+  "note": "PoE1 Marauder ascendancy. POE2 Warrior ascendancies are Titan / Warbringer / Smith of Kitava (need cross-check vs poe2db for complete list)."
+ },
+ "Archmage": {
+  "category": "Ascendancies / Classes",
+  "note": "PoE1 Witch ascendancy (Archmage support gem also exists in PoE1). Not a POE2 class or ascendancy. If a user asks about \"archmage caster,\" they're using PoE1 shorthand for mana-scaled spells — answer in POE2 terms instead."
+ },
+ "Shaman = totem builder": {
+  "category": "Ascendancies / Classes",
+  "note": "BEHAVIOR CONTAMINATION. The word \"Shaman\" exists in both PoE1 (where it was a totem-focused ascendancy) and POE2 (Druid ascendancy). In POE2, Shaman has ZERO totem mechanics. POE2 Shaman identity = Rage-powered Spell Damage via Druidic Champion + Furious Wellspring. Do NOT describe POE2 Shaman as a "
+ },
+ "Blade Vortex": {
+  "category": "Skills",
+  "note": "PoE1 skill. POE2 skill list does not contain it under this name. If referencing XTheFarmerX's \"BV Explodey Chieftain\" video, ask which POE2 skill he means (possibly Blade Storm or another skill)."
+ },
+ "BV": {
+  "category": "Skills",
+  "note": "PoE1 skill. POE2 skill list does not contain it under this name. If referencing XTheFarmerX's \"BV Explodey Chieftain\" video, ask which POE2 skill he means (possibly Blade Storm or another skill)."
+ },
+ "Abrasive": {
+  "category": "Crafting / Currency",
+  "note": "catalyst — all PoE1-only. Use the PoE2 tag-equivalent (e.g. PoE1 \"Prismatic\" → PoE2 \"Ash\" for elemental resistance; PoE1 \"Abrasive\" → PoE2 \"Uul-Netol's\" for phys)."
+ },
+ "Accelerating": {
+  "category": "Crafting / Currency",
+  "note": "catalyst — all PoE1-only. Use the PoE2 tag-equivalent (e.g. PoE1 \"Prismatic\" → PoE2 \"Ash\" for elemental resistance; PoE1 \"Abrasive\" → PoE2 \"Uul-Netol's\" for phys)."
+ },
+ "Fertile": {
+  "category": "Crafting / Currency",
+  "note": "catalyst — all PoE1-only. Use the PoE2 tag-equivalent (e.g. PoE1 \"Prismatic\" → PoE2 \"Ash\" for elemental resistance; PoE1 \"Abrasive\" → PoE2 \"Uul-Netol's\" for phys)."
+ },
+ "Imbued": {
+  "category": "Crafting / Currency",
+  "note": "catalyst — all PoE1-only. Use the PoE2 tag-equivalent (e.g. PoE1 \"Prismatic\" → PoE2 \"Ash\" for elemental resistance; PoE1 \"Abrasive\" → PoE2 \"Uul-Netol's\" for phys)."
+ },
+ "Intrinsic": {
+  "category": "Crafting / Currency",
+  "note": "catalyst — all PoE1-only. Use the PoE2 tag-equivalent (e.g. PoE1 \"Prismatic\" → PoE2 \"Ash\" for elemental resistance; PoE1 \"Abrasive\" → PoE2 \"Uul-Netol's\" for phys)."
+ },
+ "Noxious": {
+  "category": "Crafting / Currency",
+  "note": "catalyst — all PoE1-only. Use the PoE2 tag-equivalent (e.g. PoE1 \"Prismatic\" → PoE2 \"Ash\" for elemental resistance; PoE1 \"Abrasive\" → PoE2 \"Uul-Netol's\" for phys)."
+ },
+ "Prismatic": {
+  "category": "Crafting / Currency",
+  "note": "catalyst — all PoE1-only. Use the PoE2 tag-equivalent (e.g. PoE1 \"Prismatic\" → PoE2 \"Ash\" for elemental resistance; PoE1 \"Abrasive\" → PoE2 \"Uul-Netol's\" for phys)."
+ },
+ "Tempering": {
+  "category": "Crafting / Currency",
+  "note": "catalyst — all PoE1-only. Use the PoE2 tag-equivalent (e.g. PoE1 \"Prismatic\" → PoE2 \"Ash\" for elemental resistance; PoE1 \"Abrasive\" → PoE2 \"Uul-Netol's\" for phys)."
+ },
+ "Turbulent": {
+  "category": "Crafting / Currency",
+  "note": "catalyst — all PoE1-only. Use the PoE2 tag-equivalent (e.g. PoE1 \"Prismatic\" → PoE2 \"Ash\" for elemental resistance; PoE1 \"Abrasive\" → PoE2 \"Uul-Netol's\" for phys)."
+ },
+ "Unstable": {
+  "category": "Crafting / Currency",
+  "note": "catalyst — all PoE1-only. Use the PoE2 tag-equivalent (e.g. PoE1 \"Prismatic\" → PoE2 \"Ash\" for elemental resistance; PoE1 \"Abrasive\" → PoE2 \"Uul-Netol's\" for phys)."
+ },
+ "\"Pearl Ring grants increased item rarity\"": {
+  "category": "Ring Bases (added 2026-04-26 03:10 PDT — L1 spotcheck v2 surface)",
+  "note": "PoE1 only. PoE2 Pearl Ring implicit = +(7-10)% Cast Speed. Canonical: `canonical/bases.md`."
+ },
+ "Astral Plate": {
+  "category": "Body Armour Bases (added 2026-04-27 02:40 PT — L1 spotcheck body-armour surface, 50% mastery)",
+  "note": "PoE1 endgame str. PoE2 str-axis endgame is Glorious Plate / Conqueror Plate / Abyssal Cuirass."
+ },
+ "Vaal Regalia": {
+  "category": "Body Armour Bases (added 2026-04-27 02:40 PT — L1 spotcheck body-armour surface, 50% mastery)",
+  "note": "PoE1 endgame int. PoE2 has Vaal Cuirass (str), but no int-axis Vaal Regalia."
+ },
+ "Carnal Armour": {
+  "category": "Body Armour Bases (added 2026-04-27 02:40 PT — L1 spotcheck body-armour surface, 50% mastery)",
+  "note": "PoE1 str/dex."
+ },
+ "Saint's Hauberk": {
+  "category": "Body Armour Bases (added 2026-04-27 02:40 PT — L1 spotcheck body-armour surface, 50% mastery)",
+  "note": "PoE1 dex/int."
+ },
+ "Crusader Plate": {
+  "category": "Body Armour Bases (added 2026-04-27 02:40 PT — L1 spotcheck body-armour surface, 50% mastery)",
+  "note": "PoE1 str."
+ },
+ "Triumphant Lamellar": {
+  "category": "Body Armour Bases (added 2026-04-27 02:40 PT — L1 spotcheck body-armour surface, 50% mastery)",
+  "note": "PoE1 str/int."
+ },
+ "Widowsilk Robe": {
+  "category": "Body Armour Bases (added 2026-04-27 02:40 PT — L1 spotcheck body-armour surface, 50% mastery)",
+  "note": "PoE1 endgame int."
+ },
+ "Assassin's Garb": {
+  "category": "Body Armour Bases (added 2026-04-27 02:40 PT — L1 spotcheck body-armour surface, 50% mastery)",
+  "note": "(with apostrophe-s) — PoE1 dex. PoE2 has \"Assassin Garb\" (dex/int axis, lvl 73 Movement Speed). Different axis, different apostrophe."
+ },
+ "Spirit as a body-armour implicit": {
+  "category": "Body Armour Bases (added 2026-04-27 02:40 PT — L1 spotcheck body-armour surface, 50% mastery)",
+  "note": "on int and str/int endgame bases (Corvus Mantle, Conjurer Mantle). PoE1 had no Spirit stat. If asked \"what body armour gives Spirit?\" — int + str/int endgame, NOT dex bases."
+ },
+ "Elemental-resistance attribute-locked variants of one named base": {
+  "category": "Body Armour Bases (added 2026-04-27 02:40 PT — L1 spotcheck body-armour surface, 50% mastery)",
+  "note": "(Tournament Mail Fire/Cold/Lightning, Shrouded Mail Fire/Cold/Lightning) — same base name, three implicit variants. PoE1 had no analog."
+ },
+ "\"Waystones have no base rarity implicit\"": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "FALSE in PoE2. Every Waystone carries (10-20)% IIQ + (10-15)% IIR as implicit modifiers, regardless of tier or rarity. The PoE1 intuition \"map IIR comes only from explicit affixes + atlas + tier scaling\" does NOT apply to PoE2 Waystones. Canonical: `canonical/waystones.md`."
+ },
+ "\"Reforging Bench can produce T16 Waystones\"": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "FALSE. Reforging Bench caps at T15. T16 is Vaal-Orb-only."
+ },
+ "\"T15→T16 Vaal corruption is 25% chance\"": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "IMPRECISE. Per-attempt math: 25% (tier-shift outcome) × 50% (+1 vs -1 direction) = 12.5% specific T15→T16 chance."
+ },
+ "Corrupted Blood": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "POE2 mechanic. Stacks up to 10 times (B5-v2 Q#183 verified). Canonical: `0.4/mechanics/corrupted-blood.md`."
+ },
+ "Iron Hat": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ does not exist in PoE2 (PoE2 STR-pure helmets use \"Greathelm\" suffix; lowest tier is Rusted Greathelm)"
+ },
+ "Bronze Pyramid": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Battered Helm": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Sallet (and Visored": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Gilded Sallet)": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Secutor Helm": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Pig-Faced Bascinet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Reaver Helmet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Eternal Burgonet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Leather Cap": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 DEX uses \"Hood\"/\"Cap\" template — Shabby Hood is lowest tier)"
+ },
+ "Tricorne": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 DEX uses \"Hood\"/\"Cap\" template — Shabby Hood is lowest tier)"
+ },
+ "Sinner Tricorne": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 DEX uses \"Hood\"/\"Cap\" template — Shabby Hood is lowest tier)"
+ },
+ "Lion Pelt": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 DEX uses \"Hood\"/\"Cap\" template — Shabby Hood is lowest tier)"
+ },
+ "Wolf Pelt": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 DEX uses \"Hood\"/\"Cap\" template — Shabby Hood is lowest tier)"
+ },
+ "Vine Circlet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Iron Circlet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Torture Cage": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Tribal Circlet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Bone Circlet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Lunaris Circlet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Solaris Circlet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Steel Circlet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Necromancer Circlet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Mind Cage": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Hubris Circlet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 INT uses \"Circlet\"/\"Tiara\"; lowest is Twig Circlet)"
+ },
+ "Three-Dragon Helm": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ does not exist in PoE2"
+ },
+ "Festival Mask": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 DEX/INT hybrid masks use entirely new names — see Mask template below)"
+ },
+ "Vaal Mask": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 DEX/INT hybrid masks use entirely new names — see Mask template below)"
+ },
+ "Deicide Mask": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 DEX/INT hybrid masks use entirely new names — see Mask template below)"
+ },
+ "Aristocrat's Hat": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ does not exist in PoE2"
+ },
+ "Great Helmet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Crusader Helmet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Aventail Helmet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Zealot Helmet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2"
+ },
+ "Great Crown": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 STR/INT hybrid uses \"Crown\" template with new names — see Crown template below)"
+ },
+ "Magistrate Crown": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 STR/INT hybrid uses \"Crown\" template with new names — see Crown template below)"
+ },
+ "Prophet Crown": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 STR/INT hybrid uses \"Crown\" template with new names — see Crown template below)"
+ },
+ "Praetor Crown": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ do not exist in PoE2 (PoE2 STR/INT hybrid uses \"Crown\" template with new names — see Crown template below)"
+ },
+ "Bone Helmet (PoE1)": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ does not exist in PoE2 (Spiritbone Crown is the closest STR/INT analog)"
+ },
+ "Lacquered Helmet": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ does not exist in PoE2"
+ },
+ "Atziri's Disdain": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ PoE1 unique helmet. Does NOT exist in PoE2. Confabulated from collision of \"Atziri's Allure\" (POE2 support gem present in Mike's build) + \"Atziri's Disdain\" (PoE1 helmet in training prior). The actual canonical IL helmet in POE2 is **Vertex Tribal Mask** (with corrupted +4 to skill levels meta-sta"
+ },
+ "Atziri's Reflection": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "→ PoE1 shield. Does NOT exist in PoE2 (verified: no facts/canonical hits 2026-05-04)."
+ },
+ "Blood Mage": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "POE2 Witch ascendancy (also exists in PoE1, don't ban)."
+ },
+ "Deadeye": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "POE2 Ranger ascendancy (shared name)."
+ },
+ "Spark": {
+  "category": "Waystones / Maps (added 2026-04-26 02:50 PT — L1 spotcheck v3 surface)",
+  "note": "POE2 Sorceress skill."
+ },
+ "Orb of Scouring": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 currency. PoE2 has NO way to revert a magic/rare item to normal; 'return to base' means buying a fresh base."
+ },
+ "Scouring": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 verb/currency (Orb of Scouring). Not in PoE2."
+ },
+ "Scour": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 verb (Orb of Scouring). Not in PoE2; buy a fresh base instead."
+ },
+ "Orb of Alteration": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 currency (reroll magic). PoE2 has no alteration spam."
+ },
+ "Alteration spam": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 technique. Not in PoE2."
+ },
+ "Orb of Fusing": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 socket-linking currency. PoE2 has no links."
+ },
+ "Chromatic Orb": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 socket-colour currency. PoE2 has no socket colours."
+ },
+ "Blessed Orb": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 implicit reroll. Not in PoE2."
+ },
+ "Cartographer's Chisel": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 map quality currency. Not in PoE2."
+ },
+ "Eternal Orb": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 legacy currency. Not in PoE2."
+ },
+ "Awakener's Orb": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 influence-merging currency. PoE2 has no influenced items."
+ },
+ "Harvest": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 crafting league mechanic. Not in PoE2."
+ },
+ "Fossil": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 Delve crafting. Not in PoE2."
+ },
+ "Resonator": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 Delve crafting. Not in PoE2."
+ },
+ "Beastcrafting": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 Bestiary crafting. Not in PoE2."
+ },
+ "Metacraft": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 crafting-bench meta-mods. PoE2 has no crafting bench meta-mods; use omens."
+ },
+ "Metacrafting": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 crafting-bench meta-mods. PoE2 has no crafting bench meta-mods; use omens."
+ },
+ "Crafting bench": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 hideout bench. PoE2 has no crafting bench; the Reforging Bench only combines three items."
+ },
+ "Prefixes cannot be changed": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 metacraft. PoE2 side-targeting is the Sinistral/Dextral omen family."
+ },
+ "Suffixes cannot be changed": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 metacraft. PoE2 side-targeting is the Sinistral/Dextral omen family."
+ },
+ "Veiled": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 Betrayal veiled mods / unveiling. Not in PoE2."
+ },
+ "Essence of Greed": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 essence name. PoE2 essences are Body/Mind/Enhancement/Abrasion/... (see crafting_term essences)."
+ },
+ "Essence of Contempt": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 essence name. Not in PoE2."
+ },
+ "Essence of Hatred": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 essence name. Not in PoE2."
+ },
+ "Essence of Wrath": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 essence name. Not in PoE2."
+ },
+ "Essence of Zeal": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 essence name. Not in PoE2."
+ },
+ "Essence of Loathing": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 essence name. Not in PoE2."
+ },
+ "Elder influence": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 influence. PoE2 has no item influence."
+ },
+ "Shaper influence": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 influence. PoE2 has no item influence."
+ },
+ "Hunter influence": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 influence. PoE2 has no item influence."
+ },
+ "Sextant": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 atlas currency. PoE2 uses precursor tablets."
+ },
+ "Cluster jewel": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 jewel type. Not in PoE2."
+ },
+ "Divine Vessel": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 item. Not in PoE2."
+ },
+ "White socket": {
+  "category": "Currency / crafting (curated seed)",
+  "note": "PoE1 Vaal Orb outcome. PoE2 Vaal Orb has no socket effects."
+ }
+}

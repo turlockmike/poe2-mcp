@@ -1,0 +1,958 @@
+[
+ {
+  "id": "principle/asaveq/craft-one-sell-one-never-flood-your-own-market",
+  "channel": "ASaVeQ",
+  "theme": "Market behavior & pricing",
+  "claim": "Craft one, sell one — never flood your own market.",
+  "detail": "ASaVeQ repeatedly caps production at 1-2 items at a time because saturation kills margins: \"don't undercut by 100 divines... destroy the market,\" and after his ring sales slowed from 4-5/day to 2/day he switched to a strict craft-2/sell-2 cadence.",
+  "cites": [
+   "8wklxh7eqZU",
+   "RXilq0R-4oo",
+   "5FaA0raLwtg"
+  ]
+ },
+ {
+  "id": "principle/asaveq/price-check-against-live-comps-before-every-listing-misprici",
+  "channel": "ASaVeQ",
+  "theme": "Market behavior & pricing",
+  "claim": "Price-check against live comps before every listing — mispricing costs both ways.",
+  "detail": "He sold a body armour for 999 divines \"within 30 seconds\" that he later estimated at ~3,000; conversely he lists against a named comp (e.g., 640 vs a competitor's 650, or 15-25% under the best comp to sell within hours).",
+  "cites": [
+   "_V6XlODuFdw",
+   "jn5bq49LKk4",
+   "D-IxEALDtCc",
+   "0B90htNIg-M"
+  ]
+ },
+ {
+  "id": "principle/asaveq/list-slightly-under-market-then-decay-the-price-on-a-schedul",
+  "channel": "ASaVeQ",
+  "theme": "Market behavior & pricing",
+  "claim": "List slightly under market, then decay the price on a schedule instead of slashing.",
+  "detail": "Standard loop: undercut modestly, lower ~1-5 divines every 3-4 hours if unsold, and periodically move the item's stash position so loot filters re-trigger a \"new listing\" pulse; \"I will lower the price until it will eventually sell.\"",
+  "cites": [
+   "JUZwJ4pOrQE",
+   "mA6cjs1frao",
+   "K1SoNPC7Y9I",
+   "cMwaXak9Nw8"
+  ]
+ },
+ {
+  "id": "principle/asaveq/divine-finished-items-to-round-numbers-and-trade-search-brea",
+  "channel": "ASaVeQ",
+  "theme": "Market behavior & pricing",
+  "claim": "Divine finished items to round numbers and trade-search breakpoints.",
+  "detail": "A 400-ES focus sold for ~130 divines vs ~80 for a 395-ES one (\"only like five ES more... price difference is at like 50 divines\"); he routinely divines to 250 mana / 20 cast speed / 45 resistance and lists at round prices (499-510) for search friendliness.",
+  "cites": [
+   "uCbyTF-LJ5I",
+   "RXilq0R-4oo",
+   "cYquhpmwnI4"
+  ]
+ },
+ {
+  "id": "principle/asaveq/for-bulk-output-undercut-for-speed-rather-than-optimizing-ea",
+  "channel": "ASaVeQ",
+  "theme": "Market behavior & pricing",
+  "claim": "For bulk output, undercut for speed rather than optimizing each price.",
+  "detail": "Batch-farmed rings/amulets are listed cheap and move fast — \"sold like 60% of them rings after 1 hour,\" amulets \"sold out within ~10-15 minutes of listing\"; chaff starts at ~5 divines and decays or gets scrapped for gold.",
+  "cites": [
+   "Gg_88MqRR_Y",
+   "m_HAU6AeJv0",
+   "lHQw6zGJx7o"
+  ]
+ },
+ {
+  "id": "principle/asaveq/avoid-external-price-checker-spam-it-triggers-a-trade-search",
+  "channel": "ASaVeQ",
+  "theme": "Market behavior & pricing",
+  "claim": "Avoid external price-checker spam — it triggers a trade-search \"shadow ban\" cooldown.",
+  "detail": "He explicitly routes price checks through the in-game trade filter / currency exchange UI to dodge the temporary lockout from repeated third-party checks.",
+  "cites": [
+   "Vosi7acCVp0",
+   "oPZBUSS1Ees",
+   "XE_H3nQd6o0"
+  ]
+ },
+ {
+  "id": "principle/asaveq/take-the-good-enough-roll-greedy-always-loses-twice",
+  "channel": "ASaVeQ",
+  "theme": "Greed control & risk management",
+  "claim": "Take the good-enough roll — \"greedy always loses twice.\"",
+  "detail": "Chasing T3 instead of accepting T4 crit chance ate the wand's margin (\"for the cost of getting critical hit chance, I would have crafted another couple of wands\"); the same lesson recurs when greeding one more reroll bricked promising boots, and when he took 1.1k divines instead of risking good suffixes for a 1.4-1.5k onslaught chase. \"This league taught me not to go for perfect crafts... take the profits, start again with another base.\"",
+  "cites": [
+   "0B90htNIg-M",
+   "QcrXSPApG30",
+   "luFd0MaI1Hg",
+   "n_JIAFiXCXo"
+  ]
+ },
+ {
+  "id": "principle/asaveq/salvage-everything-bricked-and-partial-items-still-sell",
+  "channel": "ASaVeQ",
+  "theme": "Greed control & risk management",
+  "claim": "Salvage everything — bricked and partial items still sell.",
+  "detail": "Missed fractures resell (~20 divines on prophet gloves), bricked-suffix cast-on-crit amulets still fetch 580-650 divines, off-target chaos-spam rolls get resold to subsidize the main craft, and out of five botched ring fractures he \"only lost one ring and profited out of every single one.\"",
+  "cites": [
+   "voXE4b-MUXI",
+   "YyZRsJDNcD0",
+   "eXGwo-FTXW8",
+   "zioj0kQ_SKs",
+   "fWirl7qOkCw",
+   "JUZwJ4pOrQE"
+  ]
+ },
+ {
+  "id": "principle/asaveq/corrupt-sanctify-only-as-pure-upside-on-an-already-profitabl",
+  "channel": "ASaVeQ",
+  "theme": "Greed control & risk management",
+  "claim": "Corrupt/sanctify only as pure upside on an already-profitable item — and divine to ideal values first.",
+  "detail": "Spears sell 220-300 divines uncorrupted (already profit) before the 550-600 corruption gamble; post-patch, corruption/sanctification multiplies current values, so you divine to the best roll before pulling the trigger — and he argues against Vaal Orbs entirely where the outcome table is bad (boots).",
+  "cites": [
+   "bxzORb7rYgw",
+   "frS52RKgzY0",
+   "cYquhpmwnI4"
+  ]
+ },
+ {
+  "id": "principle/asaveq/run-cheap-base-volume-gambles-where-one-hit-pays-the-whole-b",
+  "channel": "ASaVeQ",
+  "theme": "Expected-value thinking & bankroll",
+  "claim": "Run cheap-base volume gambles where one hit pays the whole batch.",
+  "detail": "On ~1-divine diamond bases: \"I need only one hit that I could sell for 30 to 40 divines to make my currency back\"; quiver desecrations cost ~1 divine per 10 tries against 10-12 divine hits — most attempts are dead, and that's fine at the right unit cost.",
+  "cites": [
+   "A2JNl5IH2ho",
+   "c3vegIu1N80",
+   "Vosi7acCVp0",
+   "QcrXSPApG30",
+   "T4R3tTRnUWo"
+  ]
+ },
+ {
+  "id": "principle/asaveq/pay-for-rerolls-omen-of-abyssal-echoes-only-on-already-promi",
+  "channel": "ASaVeQ",
+  "theme": "Expected-value thinking & bankroll",
+  "claim": "Pay for rerolls (Omen of Abyssal Echoes) only on already-promising items.",
+  "detail": "The repeated rule: never activate the pricey reroll omen on a bad first reveal — echoes cost more than the base itself, so skip them on strict-budget runs and reserve them for items that already showed a good mod.",
+  "cites": [
+   "A2JNl5IH2ho",
+   "c3vegIu1N80",
+   "Vosi7acCVp0"
+  ]
+ },
+ {
+  "id": "principle/asaveq/judge-profit-across-the-batch-not-one-attempt-expect-break-e",
+  "channel": "ASaVeQ",
+  "theme": "Expected-value thinking & bankroll",
+  "claim": "Judge profit across the batch, not one attempt — expect break-even runs.",
+  "detail": "He deliberately films unlucky crafts: ~150 divines sunk in the Well of Souls to break even, a 900-divine glove craft listing at ~840, one losing tablet batch (-40 divines) against six or seven winners over ~1,000 divines of spamming — all still positive-EV in aggregate.",
+  "cites": [
+   "5FaA0raLwtg",
+   "voXE4b-MUXI",
+   "T4R3tTRnUWo",
+   "jn5bq49LKk4"
+  ]
+ },
+ {
+  "id": "principle/asaveq/match-the-craft-to-your-bankroll-and-climb-in-tiers",
+  "channel": "ASaVeQ",
+  "theme": "Expected-value thinking & bankroll",
+  "claim": "Match the craft to your bankroll and climb in tiers.",
+  "detail": "Marginal crafts are \"not recommended for players with only ~100 divines\"; his zero-to-mirror plan is explicit: flip to ~10 divines → currency-exchange arbitrage → only start real crafts at 200-500 divines, with per-craft spend caps (e.g., 50-80, max ~100 divines on focuses).",
+  "cites": [
+   "BKxk1lm99yQ",
+   "ZQJmoaxb_vQ",
+   "uCbyTF-LJ5I",
+   "mA6cjs1frao"
+  ]
+ },
+ {
+  "id": "principle/asaveq/buy-pre-fractured-pre-crafted-bases-when-thats-cheaper-than-",
+  "channel": "ASaVeQ",
+  "theme": "Sourcing bases & materials",
+  "claim": "Buy pre-fractured/pre-crafted bases when that's cheaper than fracturing yourself — and snipe with live filters.",
+  "detail": "He buys pre-fractured ring bases at 80-100 divines while selling his own non-fractured ones, calls self-fracturing \"40 divines only to get to that state... not recommended,\" and runs standing trade-site snipe filters (\"maximum of one divine, or if you're feeling lucky, two\") instead of forcing crafts from scratch: \"do not force your crafts.\"",
+  "cites": [
+   "RXilq0R-4oo",
+   "bmDpeUchnBU",
+   "jn5bq49LKk4",
+   "JUZwJ4pOrQE",
+   "ZQJmoaxb_vQ",
+   "oIimQNUSYGQ"
+  ]
+ },
+ {
+  "id": "principle/asaveq/know-the-exact-item-level-breakpoint-for-your-target-mod-and",
+  "channel": "ASaVeQ",
+  "theme": "Sourcing bases & materials",
+  "claim": "Know the exact item-level breakpoint for your target mod and buy the cheapest base that clears it.",
+  "detail": "ilvl 82 gates T1 spell damage/cast speed/35% movement speed (and makes whittling brick-proof on rings — \"there are no bricks\"), but don't overpay past the gate: he tested ilvl 82 wound gifts and found them \"not worth it\" vs ilvl 79 for most mods.",
+  "cites": [
+   "Gg_88MqRR_Y",
+   "eXGwo-FTXW8",
+   "Ml2bldBzyRI",
+   "RXilq0R-4oo",
+   "mA6cjs1frao",
+   "UKgLXEc2tW0"
+  ]
+ },
+ {
+  "id": "principle/asaveq/fill-or-block-one-affix-side-before-desecrating-slamming-so-",
+  "channel": "ASaVeQ",
+  "theme": "Crafting workflow discipline",
+  "claim": "Fill or block one affix side before desecrating/slamming so RNG can only land where you want.",
+  "detail": "His costliest self-flagged misplay: not blocking suffixes before whittling prefixes (\"I've spent maybe like 100 to 150 divs more than I should have\"); the same rule appears as \"fill suffixes first before prefixes\" on rings and as filling suffixes so desecration can only roll the prefix.",
+  "cites": [
+   "jn5bq49LKk4",
+   "eXGwo-FTXW8",
+   "m_n2htaTr98",
+   "oIimQNUSYGQ"
+  ]
+ },
+ {
+  "id": "principle/asaveq/price-check-the-partial-item-mid-craft-before-committing-mor",
+  "channel": "ASaVeQ",
+  "theme": "Crafting workflow discipline",
+  "claim": "Price-check the partial item mid-craft before committing more currency.",
+  "detail": "Before revealing any Well of Souls desecration he checks whether the current partial roll already justifies continuing — the stop/continue decision is a trade-site lookup, not a feeling; salvage decisions on missed fractures follow the same check.",
+  "cites": [
+   "RXilq0R-4oo",
+   "eXGwo-FTXW8",
+   "JUZwJ4pOrQE"
+  ]
+ },
+ {
+  "id": "principle/asaveq/craft-what-the-current-meta-buys-verify-demand-before-choosi",
+  "channel": "ASaVeQ",
+  "theme": "League timing & meta",
+  "claim": "Craft what the current meta buys — verify demand before choosing mods.",
+  "detail": "He checks PoE Ninja's most-played/most-DPS builds before picking ring mods, names dead mods explicitly (\"fire, chaos, and spell physical damage... are not selling\"), and notes resist suffixes matter less when Mageblood trivializes res-capping — prefix value (spirit, \"a luxurious modifier\" people overpay for) drives price.",
+  "cites": [
+   "K1SoNPC7Y9I",
+   "uCbyTF-LJ5I",
+   "luFd0MaI1Hg",
+   "JUZwJ4pOrQE",
+   "cMwaXak9Nw8"
+  ]
+ },
+ {
+  "id": "principle/asaveq/profit-windows-decay-move-early-expect-margins-to-erode-once",
+  "channel": "ASaVeQ",
+  "theme": "League timing & meta",
+  "claim": "Profit windows decay — move early, expect margins to erode once a method spreads.",
+  "detail": "Early-league ring values drop \"every single hour\" as Genesis unlocks, day-one belt demand lasts \"two maybe three days,\" essence prices inflated after his own video published the craft, and his headline ring craft's margins \"got slimmer\" as copiers arrived; late-league he pivots from crafting to flipping because high-end items stop selling.",
+  "cites": [
+   "oIimQNUSYGQ",
+   "cMwaXak9Nw8",
+   "YyZRsJDNcD0",
+   "8wklxh7eqZU",
+   "uCbyTF-LJ5I",
+   "ZQJmoaxb_vQ"
+  ]
+ },
+ {
+  "id": "principle/asaveq/exploit-the-weekly-currency-cycle-and-never-let-capital-idle",
+  "channel": "ASaVeQ",
+  "theme": "League timing & meta",
+  "claim": "Exploit the weekly currency cycle and never let capital idle.",
+  "detail": "Perfect chaos/exalted orbs bottom on Saturday/Sunday and peak Tuesday/Wednesday (buy ~5.2, sell ~6), flip during EU peak hours (~8-9pm) for liquidity, and keep divines recycled into flips or the next craft between sessions — he reinvests sale proceeds (e.g., 1.7k divines in 24h) immediately rather than stockpiling.",
+  "cites": [
+   "XE_H3nQd6o0",
+   "E2o4jku0t8Y",
+   "ZQJmoaxb_vQ"
+  ]
+ },
+ {
+  "id": "principle/keyson/price-check-before-during-and-after-the-craft-never-only-at-",
+  "channel": "Keyson",
+  "theme": "Price-checking & market behavior",
+  "claim": "Price check before, during, and after the craft — never only at the end.",
+  "detail": "\"It's not craft then price check. It's price check and craft the entire time... if you're about to spend 500 divines [to] make it a 200 divine item, why are you making it?\" — confirm the base-vs-finished spread before buying, re-comp at every notable hit, and let market depth (not mod power) decide keep/reroll: Keyson keeps a jewel reveal only if comps clear ~280 div, and abandons life mods entirely because comps sit unsold for days.",
+  "cites": [
+   "Eav6FVAmCi4",
+   "7bNvQE5pLPA",
+   "BJtqYO8vFQk"
+  ]
+ },
+ {
+  "id": "principle/keyson/treat-listing-age-as-part-of-the-price-undercut-to-actually-",
+  "channel": "Keyson",
+  "theme": "Price-checking & market behavior",
+  "claim": "Treat listing age as part of the price; undercut to actually sell.",
+  "detail": "A comp listed for days or weeks is not a real price signal (\"35 sansorn ear 14 days. That's not even a realistic comp\"; \"this [comp] is on for 5 days... I don't trust it\"). He lists at 440 against 495-525 comps (\"I want it gone\"), prices batches at 70-80% of market value, and delists or slashes his own stale items (\"isn't selling for 2 hours... send this one out to its ancestors\").",
+  "cites": [
+   "BJtqYO8vFQk",
+   "KF-EX1xIIf0",
+   "WCISPaZ2eDw",
+   "Eav6FVAmCi4",
+   "LwPI8MLfqtw"
+  ]
+ },
+ {
+  "id": "principle/keyson/assume-any-published-craft-including-his-own-degrades-its-ma",
+  "channel": "Keyson",
+  "theme": "Price-checking & market behavior",
+  "claim": "Assume any published craft — including his own — degrades its market.",
+  "detail": "Every guide opens with the same warning: \"the bases will go up, the price of the result goes down\"; \"we have already ruined this market with stream... don't follow it.\" Take the method and re-aim it at an uncrowded target, and on the flip side, pre-buy/overprice the bases a big creator's audience is about to need (\"let the people that are going to blindly follow the video pay your premium\"), or dump inventory the night before the video drops.",
+  "cites": [
+   "-bL-GMKvqAI",
+   "Eav6FVAmCi4",
+   "1UesZdzHsxg",
+   "8nJ_-8AjHBA",
+   "UfZ5Kx7p0qg"
+  ]
+ },
+ {
+  "id": "principle/keyson/derive-every-craft-step-from-poedb-weightings-and-item-level",
+  "channel": "Keyson",
+  "theme": "EV & weighting analysis (PoEDB)",
+  "claim": "Derive every craft step from PoEDB weightings and item levels before spending currency.",
+  "detail": "Read weight ÷ total as a straight probability (T1 res ≈ 1.1% each, all mana tiers ≈ 17%, good armor mods ≈ \"about 1 in 50\"), cost each step at current currency prices, and compare against the trade price of the finished item — \"the numbers should tell a story\"; cross-check on Craft of Exile's emulator \"instead of burning your currency in game.\"",
+  "cites": [
+   "7bNvQE5pLPA",
+   "Eb4y_uvj6is",
+   "TWgmQuiLeHA",
+   "WXqTLbAFwjk"
+  ]
+ },
+ {
+  "id": "principle/keyson/sub-1-odds-compound-exponentially-so-dont-craft-attack-weapo",
+  "channel": "Keyson",
+  "theme": "EV & weighting analysis (PoEDB)",
+  "claim": "Sub-1% odds compound exponentially — so don't craft attack weapons.",
+  "detail": "\"Two 10% chances are one in 100; two 1% chances are like one in 10,000.\" Weapon-mandatory mods (T1 fire on a bow = 0.17%, %phys = 0.056%, crit = 0.2%) are 5-40x rarer than armor mods and stack multiplicatively: \"you'll make 10, 20 of the perfect armors before you make a perfect weapon\" and \"don't spend 3,000 divines rolling for a 300 divine item.\"",
+  "cites": [
+   "Eb4y_uvj6is",
+   "PorTRk9JiAo",
+   "y6ln-G4QWqo"
+  ]
+ },
+ {
+  "id": "principle/keyson/exploit-item-level-structure-t1s-can-never-be-whittled-or-ti",
+  "channel": "Keyson",
+  "theme": "EV & weighting analysis (PoEDB)",
+  "claim": "Exploit item-level structure: T1s can never be whittled or tier-gated off.",
+  "detail": "\"A tier one of a mod is always possible, no matter what\" under tiered currency, and whittling removes the lowest-ilvl mod first — so pick bases where the ilvls do the protecting (T1 res/MS at ilvl 82 become permanent once landed; an exactly-ilvl-81 quarterstaff makes every elemental T1 whittle-safe; ilvl-78 hybrid prefixes can't outroll ilvl-82 suffixes, eliminating designator omens entirely).",
+  "cites": [
+   "7bNvQE5pLPA",
+   "-bL-GMKvqAI",
+   "KF-EX1xIIf0",
+   "sLcLThkn-MY",
+   "HQIfKiKzpaY",
+   "TWgmQuiLeHA"
+  ]
+ },
+ {
+  "id": "principle/keyson/set-your-blocker-before-you-whittle-or-slam-the-highest-weig",
+  "channel": "Keyson",
+  "theme": "EV & weighting analysis (PoEDB)",
+  "claim": "Set your blocker before you whittle or slam — the highest-weight junk mod eats your clicks otherwise.",
+  "detail": "Mana is \"four times more likely than anything else\" on ring prefixes; skipping the block \"wasted maybe like 8-9 whittles\" at ~7 div each, and on the mirror staff a max-rolled mana suffix is deliberately installed as \"our best blocker\" so whittles can't hit anything valuable. Same logic drives filling suffixes cheaply first so slams are forced onto prefixes.",
+  "cites": [
+   "-bL-GMKvqAI",
+   "7bNvQE5pLPA",
+   "PorTRk9JiAo",
+   "HQIfKiKzpaY",
+   "UfZ5Kx7p0qg"
+  ]
+ },
+ {
+  "id": "principle/keyson/volume-always-beats-variance-craft-5-20-cheap-identical-item",
+  "channel": "Keyson",
+  "theme": "Batch discipline & salvage",
+  "claim": "Volume always beats variance — craft 5-20 cheap identical items, never one expensive gamble.",
+  "detail": "His single most important rule: \"instead of one 10-div craft, craft 10 of a one div item or 20 of a 50 exalt item... one of those items generally pays for the whole craft.\" An 18-ring batch yields \"two really, really good\" hits; batches exist \"to give you at-bats\" and also let you \"buy your own stock\" (equip a keeper).",
+  "cites": [
+   "8nJ_-8AjHBA",
+   "EloZOBbLuKw",
+   "WCISPaZ2eDw",
+   "UfZ5Kx7p0qg",
+   "WXqTLbAFwjk",
+   "2fiIYj4BtDk"
+  ]
+ },
+ {
+  "id": "principle/keyson/never-all-in-one-craft-size-risk-at-10-20-of-net-worth",
+  "channel": "Keyson",
+  "theme": "Batch discipline & salvage",
+  "claim": "Never all-in one craft; size risk at 10-20% of net worth.",
+  "detail": "\"Never, ever, ever invest all your money into one craft\" — a missed all-in ring \"wasted a week's worth of work,\" and the 5-mirror gamba video shows the tail: five mirrors in, 2.5 out. Keep money free so a hit item isn't fire-sold.",
+  "cites": [
+   "8nJ_-8AjHBA",
+   "WCISPaZ2eDw",
+   "LwPI8MLfqtw"
+  ]
+ },
+ {
+  "id": "principle/keyson/failed-crafts-are-inventory-not-vendor-trash-but-prep-before",
+  "channel": "Keyson",
+  "theme": "Batch discipline & salvage",
+  "claim": "Failed crafts are inventory, not vendor trash — but prep before you salvage.",
+  "detail": "Sell misses and half-dones from every batch (overpriced omens of light? \"reroll once and sell misses at half price... POE players are generally gamblers\"), and rescue 3-good/2-junk items with Omen of Putrefaction + desecration reveals. The hard sequencing rule: quality and socket FIRST, because putrefying corrupts — \"this is a brick... don't be like me.\" Spend reveal rerolls on the later slots, where hits are rarer.",
+  "cites": [
+   "IrH3eVfYzHo",
+   "8nJ_-8AjHBA",
+   "EloZOBbLuKw",
+   "WCISPaZ2eDw",
+   "UfZ5Kx7p0qg"
+  ]
+ },
+ {
+  "id": "principle/keyson/settle-for-good-enough-tiers-perfection-is-where-the-money-d",
+  "channel": "Keyson",
+  "theme": "Batch discipline & salvage",
+  "claim": "Settle for good-enough tiers — perfection is where the money dies.",
+  "detail": "\"Yeah, it feels bad not to take tier one, but you just have to do it\" (T2 flats settled \"so fast\"); his 150-div staff does 160k DPS vs 175k for the ~4,000-div showcase — \"you guys don't need perfect weapons\"; \"given that we're profit crafting, T2 is fine\"; \"we're not looking for perfection.\" The 600-div ring craft that broke even despite good luck is the cautionary anchor.",
+  "cites": [
+   "-bL-GMKvqAI",
+   "PorTRk9JiAo",
+   "sLcLThkn-MY",
+   "2fiIYj4BtDk",
+   "EloZOBbLuKw"
+  ]
+ },
+ {
+  "id": "principle/keyson/timing-is-worth-more-than-crafting-skill-the-same-item-is-wo",
+  "channel": "Keyson",
+  "theme": "League-start economy & timing",
+  "claim": "Timing is worth more than crafting skill — the same item is worth 30x on day 2.",
+  "detail": "\"Something with 30% movement speed on a boot on day two is going to go for a lot more money than it will on day 40. On day 40, it's probably worth one exalted orb.\" Simple profit crafts \"print money\" early league (rings selling 800-900) and die late (\"I am not profit crafting these\"; 19-28-day-old listings unsold) — but gate breach-dependent crafts to ~day 6-7 when catalysts get cheap.",
+  "cites": [
+   "WXqTLbAFwjk",
+   "TWgmQuiLeHA",
+   "EloZOBbLuKw",
+   "UfZ5Kx7p0qg",
+   "KF-EX1xIIf0"
+  ]
+ },
+ {
+  "id": "principle/keyson/bank-every-night-by-laddering-profit-into-the-most-expensive",
+  "channel": "Keyson",
+  "theme": "League-start economy & timing",
+  "claim": "Bank every night by laddering profit into the most expensive appreciating currency you can afford.",
+  "detail": "\"Don't hold any divs, and you don't hold any exalts... echoes → whittles/omens of light → Hinekora's Locks → mirror — move on down the chain.\" Crafting currencies \"always go up\": 10 div of omens of light \"turned into 15 divines just cuz you slept,\" locks bought at 28-40 div reached 200-1,000, a 1K-div mirror hit ~4K in two weeks; early on, flipping 400-500 exalts into chaos \"will turn [them] into 4-5,000.\"",
+  "cites": [
+   "nOfB-sxR6WU",
+   "g4xtVUSyIKE",
+   "8nJ_-8AjHBA"
+  ]
+ },
+ {
+  "id": "principle/keyson/adapt-the-method-to-current-currency-prices-instead-of-runni",
+  "channel": "Keyson",
+  "theme": "League-start economy & timing",
+  "claim": "Adapt the method to current currency prices instead of running it verbatim.",
+  "detail": "Choose the tool by relative cost: essence-cycling with Asterid's Creativity replaces 11-div Omens of Light at \"10 times the savings\"; perfects only when they cost \"two to three times what a greater exalt costs\" (\"Perfects are bait. They are simply too expensive\"); buy fractured bases rather than pay ~21 div expected to self-fracture; shelve good bases when the enabling currency is \"too stupid expensive.\"",
+  "cites": [
+   "1UesZdzHsxg",
+   "EloZOBbLuKw",
+   "PorTRk9JiAo",
+   "WXqTLbAFwjk",
+   "8nJ_-8AjHBA",
+   "sLcLThkn-MY"
+  ]
+ },
+ {
+  "id": "principle/keyson/trust-the-demos-method-never-its-luck-and-record-your-own-se",
+  "channel": "Keyson",
+  "theme": "League-start economy & timing",
+  "claim": "Trust the demo's method, never its luck — and record your own sessions.",
+  "detail": "Nearly every video flags on-screen outcomes as \"streamer RNG\" (\"Do not expect this to be your outcome\"; \"I went hundreds of collar bones without hitting tier one spirit\"), and two videos keep the bad tail in on purpose as \"your warning as to what happens\" (a 200-div staff that \"might not even sell for 200\"). His own pro tip after losing footage: record crafting sessions so every buy and roll is auditable.",
+  "cites": [
+   "-bL-GMKvqAI",
+   "sLcLThkn-MY",
+   "TtfgzyDfuvU",
+   "UfZ5Kx7p0qg",
+   "BJtqYO8vFQk",
+   "KF-EX1xIIf0"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/buy-a-magic-base-that-already-carries-the-one-mod-you-cant-a",
+  "channel": "XTheFarmerX",
+  "theme": "The one skeleton he uses for everything",
+  "claim": "Buy a magic base that already carries the one mod you can't add, then let an essence add the one you can.",
+  "detail": "Weapons: a blue with T4+ % physical (or +N spell skills) → Greater Essence of Abrasion (guaranteed T3 flat phys) / Sorcery or Alacrity. Armour: a blue with T4+ flat or hybrid ES → Greater Essence of Enhancement (guaranteed % ES). The essence is \"a regal orb that gives you a guaranteed roll\", and on league start it is \"pretty much the only way to craft on a budget.\"",
+  "cites": [
+   "ITBexsgq2NI",
+   "UWrIgHklsPg"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/flat-percent-is-the-whole-reason-for-the-mod-pair",
+  "channel": "XTheFarmerX",
+  "theme": "The one skeleton he uses for everything",
+  "claim": "Flat × percent is the whole reason for the mod pair.",
+  "detail": "Flat phys averages ~33 vs ~65 for flat cold, but a T3 154% phys roll makes the flat phys \"essentially two and a half X its value\" (~80). Flat ES and % ES \"have the same effect\" on armour — so the third target is the hybrid (flat ES + %) or (% ES + life) roll, where \"tier three of this is better than tier one of flat.\"",
+  "cites": [
+   "ITBexsgq2NI",
+   "UWrIgHklsPg"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/take-the-guaranteed-third-mod-from-the-abyss",
+  "channel": "XTheFarmerX",
+  "theme": "The one skeleton he uses for everything",
+  "claim": "Take the guaranteed third mod from the Abyss.",
+  "detail": "Jawbone + Omen of the Leech (forces an Amanamu mod) + a side-picking Necromancy omen turns the desecration into a known-good roll: attack speed 12–18% on bows (mid-T1 equivalent), penetration on maces/quarterstaves, \"elemental damage\" 74–89% on wands. On staves the Sinistral Necromancy prefix reveal is ~50% gain-as-extra once +lightning skills has blocked the other elements. Omen of Echoes is worth it wherever the guaranteed mod still has a wide roll range.",
+  "cites": [
+   "ITBexsgq2NI"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/slam-math-for-the-last-two-mods",
+  "channel": "XTheFarmerX",
+  "theme": "The one skeleton he uses for everything",
+  "claim": "Slam math for the last two mods.",
+  "detail": "Greater exalts ~10 ex and divines ~50 ex on day one, so a greater exalt is a fifth of a div; use one only when the item already deserves it, and pair it with Omen of Greater Exaltation whenever the omen is cheaper than the orb (\"usually half the price\"). If the omen is dearer, just double-slam.",
+  "cites": [
+   "ITBexsgq2NI",
+   "UWrIgHklsPg"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/tier-1-bases-will-not-exist-day-one-buy-the-b-c-tier-and-sto",
+  "channel": "XTheFarmerX",
+  "theme": "League-start bases & pricing",
+  "claim": "Tier-1 bases will not exist day one — buy the B/C tier and stop tunnel-visioning.",
+  "detail": "Cavalry / Guardian Bow are \"5 to 10% worse\" than Warmonger and sometimes a third of the price; Ceremonial Robe instead of Vile Robe. Base tier \"giga matters\" for body armour and helmets (40–50% more base ES compounds to 600–1,000 ES on a build) and barely matters for gloves and boots (low base values, narrow roll ranges) or staves (swap-able implicits).",
+  "cites": [
+   "ITBexsgq2NI",
+   "UWrIgHklsPg"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/everything-you-know-about-the-economy-on-league-start-throw-",
+  "channel": "XTheFarmerX",
+  "theme": "League-start bases & pricing",
+  "claim": "\"Everything you know about the economy on league start, throw it out the window.\"",
+  "detail": "A T4-phys magic bow on a T2 base costs ~1 div; the finished 3–5-mod bow sells for 4–10 div and cost 1–2 to make (\"I made like 60 div on day one doing this exact craft last league\"). Boots crafted for ~5 ex list at ~20 ex on day one.",
+  "cites": [
+   "ITBexsgq2NI",
+   "UWrIgHklsPg"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/consistent-and-capped-vs-gamble-with-a-ceiling",
+  "channel": "XTheFarmerX",
+  "theme": "League-start bases & pricing",
+  "claim": "Consistent-and-capped vs gamble-with-a-ceiling.",
+  "detail": "Essence-on-blue is \"very consistent … slightly cheaper … the ceiling is just very, very low.\" Omen of Putrefaction (~10–15 ex early, needs a premium ilvl 75+ base, sockets and quality applied before the rib corrupts it) can make \"15 div body armours with 20 exalts\" or lose a third of a div outright. He offers both and lets your risk appetite pick.",
+  "cites": [
+   "UWrIgHklsPg"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/same-skeleton-as-keyson-opposite-bet-on-variance",
+  "channel": "XTheFarmerX",
+  "theme": "How this squares with the channels below",
+  "claim": "Same skeleton as Keyson, opposite bet on variance.",
+  "detail": "Keyson's \"buckshot\" and Early-league crafts run the identical blue → essence → desecrate → slam pipeline, but across six bases at a time and finishing only the winners; XTheFarmerX spends ~1 div on one good blue and makes every step deterministic (Leech + Necromancy omens) so a single item comes out right. Batch when bases are ~5 ex, go deterministic when the base is the expensive part.",
+  "cites": [
+   "WXqTLbAFwjk",
+   "UfZ5Kx7p0qg"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/no-fight-with-stop-crafting-attack-weapons",
+  "channel": "XTheFarmerX",
+  "theme": "How this squares with the channels below",
+  "claim": "No fight with \"Stop crafting attack weapons.\"",
+  "detail": "Keyson says the bulk of early weapon crafting is \"essencing a percent-phys blue\" and ends at three mods; this guide is exactly that plus one guaranteed Amanamu suffix, aimed at gearing yourself on day one rather than profit-rolling T1 weapons. Both agree the last slams are where the odds collapse (Keyson: sub-1% per T1 mod; Farmer: ~1-in-6 to hit a useful staff suffix).",
+  "cites": [
+   "Eb4y_uvj6is"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/putrefaction-asaveqs-boots-farmers-body-armour-and-the-omens",
+  "channel": "XTheFarmerX",
+  "theme": "How this squares with the channels below",
+  "claim": "Putrefaction: ASaVeQ's boots, Farmer's body armour — and the omen's name.",
+  "detail": "ASaVeQ's low-budget Sekhma Sandals card mis-hears the omen as \"Amethyst of Putrification\"; the Farmer captions render it \"future faction\" while the chapter title says Putrefaction Crafting , which settles it as Omen of Putrefaction. Both describe the same mechanic (six desecrated mods, three reveals each, reveals block one another). ASaVeQ found it did not pay on helmets; Farmer only prices it on body armour.",
+  "cites": [
+   "QcrXSPApG30"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/prices-line-up-with-keysons-day-one-ledger",
+  "channel": "XTheFarmerX",
+  "theme": "How this squares with the channels below",
+  "claim": "Prices line up with Keyson's day-one ledger.",
+  "detail": "Farmer's greater exalt ~10 ex / div ~50 ex and Putrefaction ~10–15 ex sit inside Keyson's \"on day two 40 exalts is a div\", greater exalts 5–9 ex, Abyss omens 15–20 ex. Farmer's Opulence-on-gloves-and-rings advice matches Keyson's \"always suffix, always T1 rarity\" note.",
+  "cites": [
+   "g4xtVUSyIKE",
+   "WXqTLbAFwjk"
+  ]
+ },
+ {
+  "id": "principle/xthefarmerx/one-genuine-conflict-gemini-bow",
+  "channel": "XTheFarmerX",
+  "theme": "How this squares with the channels below",
+  "claim": "One genuine conflict — Gemini Bow.",
+  "detail": "Farmer (2026-09-01) still pitches Gemini's \"50% chance of firing additional arrows\" implicit as game-breaking for Lightning Arrow; LilBotQ (2026-09-03) reports the extra-arrow implicit removed this patch. Check PoE2DB for 0.5.5 before paying the Gemini premium; Warmonger / Obliterator / Cavalry / Guardian are unaffected. Everything else agrees with the modifier block above: mana is the dead caster prefix, +level of spell skills is the caster suffix that matters, movement speed is what boots are for.",
+  "cites": []
+ },
+ {
+  "id": "principle//spears-bows-maces-and-quarterstaves-share-one-mod-pool-and-t",
+  "channel": "",
+  "theme": "Martial weapons 1:27 1 2 3 4",
+  "claim": "Spears, bows, maces and quarterstaves share one mod pool, and the weapon's own DPS is the baseline every passive, jewel and support multiplies",
+  "detail": "— so the prefixes that raise that number are where all the value is. Prefix order: % increased physical damage (king — phys converts through skill gems and feeds \"leech phys attack damage as life / mana\"), then adds flat lightning / fire / cold damage (the flat adds , not \"increased elemental damage with attacks\"; high flat rolls beat a weak %phys roll in use, though buyers still pay more for phys), then anything else that raises total weapon DPS.",
+  "cites": []
+ },
+ {
+  "id": "principle//suffixes-are-the-luxury-side",
+  "channel": "",
+  "theme": "Martial weapons 1:27 1 2 3 4",
+  "claim": "Suffixes are the \"luxury\" side.",
+  "detail": "Suffix +level of projectile / melee / attack skills is the easiest damage scaler in the game; then +critical hit chance (it raises the weapon's base crit, so every later crit mod scales harder), then crit damage bonus, then increased attack speed — the only other suffix that adds real value.",
+  "cites": []
+ },
+ {
+  "id": "principle//",
+  "channel": "",
+  "theme": "Martial weapons 1:27 1 2 3 4",
+  "claim": "",
+  "detail": "Dead weight: leech and attributes (fine to have, add nothing to price); % increased elemental damage (not the flat add, not what buyers pay for). The mantra: raise the baseline — weapon phys, weapon crit, weapon speed — every downstream multiplier reads off those numbers first.",
+  "cites": []
+ },
+ {
+  "id": "principle//bases",
+  "channel": "",
+  "theme": "Martial weapons 1:27 1 2 3 4",
+  "claim": "Bases",
+  "detail": "5:24 – 9:09 — Spears: Flying Spear (projectile-speed implicit doubles as a damage multiplier with Projectile Acceleration support — Twister builds); a 7%-base-crit spear (7% vs the normal 5%, reaching 12% fully rolled — the base name is garbled in the auto-captions, treat the name as unconfirmed); Soaring Spear as a niche movement stick (highest attacks-per-second, roll only attack speed, Whirling Slash around the map). Two-hand maces: no single standout — Ironwood Greathammer (top phys roll + stun-buildup implicit), Massive Greathammer (highest average phys), Sacred Maul (his favourite; 1.2 APS makes clunky mace skills feel smooth), plus the war-cry great club and Anvil Maul (crush on hit). Bows: Obliterator Bow (highest phys of any bow, at the cost of reduced projectile range), Warmonger Bow (next-highest phys, no range penalty); Gemini Bow lost its extra-arrow implicit and is no longer best-in-slot . One-hand maces: off-meta — Flail bases for extreme attack speed (Earthshatter, Boneshatter, movement), Strife Pick (+crit damage bonus implicit) or Fortified Hammer (chance to daze) for damage. Quarterstaves: Sinister Quarterstaff — highest base crit, and the Monk start sits next to the crit cluster.",
+  "cites": []
+ },
+ {
+  "id": "principle//the-exact-opposite-of-martial-weapons-suffixes-carry-the-val",
+  "channel": "",
+  "theme": "Caster weapons — wands, staves, foci 9:31 1 2",
+  "claim": "The exact opposite of martial weapons: suffixes carry the value.",
+  "detail": "Suffix +level of spell skills (fire / cold / lightning / all) is the one that matters; then cast speed , spell crit chance , spell crit damage bonus , in that order. Best-in-slot bench crafts: +1 to all spell skills · increased cast speed · gain % of elemental damage as extra cold.",
+  "cites": []
+ },
+ {
+  "id": "principle//",
+  "channel": "",
+  "theme": "Caster weapons — wands, staves, foci 9:31 1 2",
+  "claim": "",
+  "detail": "Dead weight: mana regeneration and the other suffixes (marginally useful, zero resale); the Prefix maximum-mana prefix (a \"gain as extra\" prefix is nearly always better); off-element damage (e.g. increased cold damage on a +fire-skills wand).",
+  "cites": []
+ },
+ {
+  "id": "principle//bases",
+  "channel": "",
+  "theme": "Caster weapons — wands, staves, foci 9:31 1 2",
+  "claim": "Bases:",
+  "detail": "Dueling Wand grants Spellslinger (trigger socketed spells) and is strong on almost every caster; almost any staff works, with Reaping Staff (Reap) and Chiming Staff (Sigil of Power) the desirable ones; Tasalian Focus for the highest ES — when profit-crafting, the ES delta alone can swing value by hundreds of divines (ASaVeQ's 400-ES vs 395-ES focus in the general principles above is the same effect).",
+  "cites": []
+ },
+ {
+  "id": "principle//base-demand-order-energy-shield-evasion-es-hybrid-pure-armou",
+  "channel": "",
+  "theme": "Armour ground rules 12:05 – 14:01",
+  "claim": "Base demand order: energy shield ≫ evasion / ES hybrid > pure armour ≈ pure evasion.",
+  "detail": "ES is what casters and minion builds must use, and attack builds still want it, so it commands the highest prices; armour and evasion pieces still profit, just less on average. \"Defenses\" in every slot below means armour, evasion, energy shield or their hybrids.",
+  "cites": []
+ },
+ {
+  "id": "principle//life-vs-es",
+  "channel": "",
+  "theme": "Armour ground rules 12:05 – 14:01",
+  "claim": "Life vs ES.",
+  "detail": "On armour bases maximum life raises value; on ES bases the same life roll is unwanted — buyers want the ES maxed instead. On evasion gear, \"gain deflection rating equal to evasion rating\" is almost always a big value add.",
+  "cites": []
+ },
+ {
+  "id": "principle//runic-ward",
+  "channel": "",
+  "theme": "Armour ground rules 12:05 – 14:01",
+  "claim": "Runic Ward",
+  "detail": "14:01 — an extra life pool crafted via the Verisium anvil; it trades some armour / evasion / ES for Ward and unlocks Kalguuran skills. Almost always: Sovereign Alloy for the \"increased Runic Ward\" prefix, then the normal good mods. Boots and gloves are the rares that sell for Ward crafting; helmets barely do, and uniques own the body-armour slot.",
+  "cites": []
+ },
+ {
+  "id": "principle//rarity-adds-value-only-if-the-rest-of-the-item-is-already-go",
+  "channel": "",
+  "theme": "Armour ground rules 12:05 – 14:01",
+  "claim": "Rarity adds value only if the rest of the item is already good.",
+  "detail": "A piece whose only merit is rarity sells for nothing; a strong piece with rarity on top sells for a lot more.",
+  "cites": []
+ },
+ {
+  "id": "principle//the-simplest-slot-resistances-then-life-and-mana",
+  "channel": "",
+  "theme": "Belts 16:09 1",
+  "claim": "The simplest slot: resistances, then life and mana.",
+  "detail": "Judge a belt on its Suffix resistance rolls first; Prefix maximum life and maximum mana next. The \"increased explicit resistance modifier magnitudes\" craft is very strong early league — but only on a belt whose resistances are already high. Heavy Belt (increased stun threshold) is the best implicit, though implicits matter little here.",
+  "cites": []
+ },
+ {
+  "id": "principle//belts-are-an-early-league-item",
+  "channel": "",
+  "theme": "Belts 16:09 1",
+  "claim": "Belts are an early-league item.",
+  "detail": "As the league matures players move to Mageblood / Headhunter and rare belts become nearly worthless; Otherworldly / Genesis-tree belt mods for minion and spell builds are the niche exception and can sell for real currency. (Keyson dates the collapse to ~week two and calls it the slot to avoid entirely.)",
+  "cites": []
+ },
+ {
+  "id": "principle//learn-boots-by-their-dead-mods-first-then-stack-defenses-res",
+  "channel": "",
+  "theme": "Boots 17:23 1 2 3",
+  "claim": "Learn boots by their dead mods first, then stack defenses, resistances and movement speed.",
+  "detail": "Prefix target: three defensive mods (e.g. increased ES + hybrid ES + flat ES) or two defensive mods plus movement speed — a 30–35% roll alone makes a pair worth something. On ES boots maximum mana can stand in for one defensive prefix; on armour boots maximum life plays that role. Suffix : resistances and rarity.",
+  "cites": []
+ },
+ {
+  "id": "principle//10-15-spirit",
+  "channel": "",
+  "theme": "Boots 17:23 1 2 3",
+  "claim": "+10–15 Spirit",
+  "detail": "Rune skill effect duration · cooldown recovery · chance to not remove charges are big adds — but only on ES or ES / evasion bases. +10–15 Spirit is the standout bench craft; Spirit helps almost every build.",
+  "cites": []
+ },
+ {
+  "id": "principle//",
+  "channel": "",
+  "theme": "Boots 17:23 1 2 3",
+  "claim": "",
+  "detail": "Dead weight: reduced attribute requirements, shock duration, chill duration, life regeneration. Stun threshold and attributes are not useless, but won't make boots worth anything.",
+  "cites": []
+ },
+ {
+  "id": "principle//same-defensive-priorities-as-boots-with-one-big-difference-b",
+  "channel": "",
+  "theme": "Body armour 19:35 1 2",
+  "claim": "Same defensive priorities as boots, with one big difference: body armour can roll flat Spirit as a prefix — up to 60 at tier 1 — and that mod alone can skyrocket the price.",
+  "detail": "Want: Prefix flat Spirit, stacked defenses, resistances.",
+  "cites": []
+ },
+ {
+  "id": "principle//",
+  "channel": "",
+  "theme": "Body armour 19:35 1 2",
+  "claim": "",
+  "detail": "Rune mods are mostly strong but must be coherent — a rune mod granting increased max mana wants a flat-mana prefix beside it, not maximum life. He calls chest the most interesting niche-crafting slot in the game and recommends reading the whole rune-exclusive list.",
+  "cites": []
+ },
+ {
+  "id": "principle//",
+  "channel": "",
+  "theme": "Body armour 19:35 1 2",
+  "claim": "",
+  "detail": "Dead weight: life regeneration, stun threshold, thorns, reduced-duration mods. The slot competes with strong uniques, so rares sell slowly and only when the mods are genuinely high-tier; no bench craft stands out the way Spirit does on boots.",
+  "cites": []
+ },
+ {
+  "id": "principle//prioritise-defensive-prefixes-but-this-is-the-slot-where-suf",
+  "channel": "",
+  "theme": "Helmets 21:27 1 2 3",
+  "claim": "Prioritise defensive prefixes, but this is the slot where suffixes actually compete:",
+  "detail": "an ES helmet with crit chance or +2 minion skills is worth \"an absolute ton,\" scaling with the ES number. Prefix energy shield (most other builds run unique helmets, so ES rares are where the money is); Suffix resistances, critical hit chance , +level of minion skills .",
+  "cites": []
+ },
+ {
+  "id": "principle//two-socket-exceptional-bases-are-in-demand",
+  "channel": "",
+  "theme": "Helmets 21:27 1 2 3",
+  "claim": "Two-socket \"exceptional\" bases are in demand",
+  "detail": "— Raven's Touch shards let you anoint a notable through a socketed helmet.",
+  "cites": []
+ },
+ {
+  "id": "principle//",
+  "channel": "",
+  "theme": "Helmets 21:27 1 2 3",
+  "claim": "",
+  "detail": "Dead weight: life regeneration, accuracy. Rune mods here are almost all rage / melee themed — valuable on strength (armour) bases ~95% of the time, niche otherwise (max-rage is the callout). No bench craft consistently adds value.",
+  "cites": []
+ },
+ {
+  "id": "principle//the-one-armour-slot-where-you-dont-lead-with-defenses",
+  "channel": "",
+  "theme": "Gloves 23:16 1 2 3 4",
+  "claim": "The one armour slot where you don't lead with defenses",
+  "detail": "— gloves roll so much offense that buyers trade survivability for damage. The two mods that make gloves expensive: +level of projectile skills Rune (also boosts every spell with the projectile tag) or +level of melee skills . Attack builds: Prefix adds damage to attacks next, then attack speed. Projectile casters: projectile speed, projectile damage, maximum mana; non-projectile casters fall back to ES / defenses.",
+  "cites": []
+ },
+ {
+  "id": "principle//bench-crafts-are-all-good-suffixes",
+  "channel": "",
+  "theme": "Gloves 23:16 1 2 3 4",
+  "claim": "Bench crafts are all good suffixes",
+  "detail": "(cast speed, crit damage bonus, effect of socketed augments) — lock one so crafting can keep hunting +skill levels. Rarity is one of the few \"average\" mods that reliably adds value here.",
+  "cites": []
+ },
+ {
+  "id": "principle//",
+  "channel": "",
+  "theme": "Gloves 23:16 1 2 3 4",
+  "claim": "",
+  "detail": "Meh: resistances, life / mana leech — nice, never what makes gloves expensive. Because defenses are low anyway, every base type can profit with good rolls: his worked example is an exceptional hybrid armour / evasion base with +2 melee skills, flat damages and crit bonus selling for hundreds of divines — the same mods on armour boots would not.",
+  "cites": []
+ },
+ {
+  "id": "principle//jewellery-sits-a-tier-above-armour-because-every-build-depen",
+  "channel": "",
+  "theme": "Jewellery: quality and rarity first 25:52",
+  "claim": "Jewellery sits a tier above armour because every build depends on it.",
+  "detail": "Essence of the Breach pushes quality past 20%, and quality scales the best mods — a +3 skill-level roll becomes +4. For high-end crafting apply quality first (strip it later if needed); it can double or triple profit.",
+  "cites": []
+ },
+ {
+  "id": "principle//rings-can-roll-rarity-as-prefix-and-suffix-on-top-of-a-rarit",
+  "channel": "",
+  "theme": "Jewellery: quality and rarity first 25:52",
+  "claim": "Rings can roll rarity as prefix and suffix, on top of a rarity implicit",
+  "detail": "— on rings, rarity almost always increases value.",
+  "cites": []
+ },
+ {
+  "id": "principle//the-biggest-mistake-is-judging-mods-one-at-a-time-a-rings-mo",
+  "channel": "",
+  "theme": "Rings 26:55 1 2 3 4 5",
+  "claim": "The biggest mistake is judging mods one at a time — a ring's mods have to work as a package",
+  "detail": ": lightning-to-attacks next to phys-to-attacks, not next to maximum mana.",
+  "cites": []
+ },
+ {
+  "id": "principle//attack-rings",
+  "channel": "",
+  "theme": "Rings 26:55 1 2 3 4 5",
+  "claim": "Attack rings:",
+  "detail": "Prefix adds lightning damage to attacks is the top mod — it rolls higher than the other flats and lets any build shock (enemies take 20% more damage), even a fire melee build; other adds damage to attacks beat \"increased fire / cold damage\" by a wide margin under PoE2 scaling. Suffix : resistances (high rolls less mandatory than the prefixes), life / mana leech, high attributes for gear requirements, rarity as a bonus. The increased-attack-speed craft adds little value itself but is useful for cleaning up an incoherent affix.",
+  "cites": []
+ },
+ {
+  "id": "principle//caster-rings",
+  "channel": "",
+  "theme": "Rings 26:55 1 2 3 4 5",
+  "claim": "Caster rings:",
+  "detail": "traditional — maximum mana, increased mana, mana regen, cast speed, resistances; strength / life aren't bad since many casters cast from life. Desecrated increased spell damage while on full energy shield is a massive boost. Genesis tree (Breach) +1 level of spell skills is exceptionally rare and sells for hundreds of divines — these mods have made plain caster rings from two or three leagues ago far less valuable.",
+  "cites": []
+ },
+ {
+  "id": "principle//bases",
+  "channel": "",
+  "theme": "Rings 26:55 1 2 3 4 5",
+  "claim": "Bases",
+  "detail": "30:23 — anything sells early; as the economy matures only bases without weak implicits hold value. Gold Ring is the top drop-anywhere base (triple rarity on one is worth a ton); Pneumonic rings (Breach tree) for mana builds; resistance implicits are solid early, unremarkable later.",
+  "cites": []
+ },
+ {
+  "id": "principle//two-mods-above-everything-level-of-skills-then-spirit",
+  "channel": "",
+  "theme": "Amulets 31:10 1 2 3 4 5",
+  "claim": "Two mods above everything: +level of skills, then Spirit.",
+  "detail": "Both together sell for three to four times a skill-level-only amulet. Suffix +level of skills (projectile / melee / spell / minion): early league +1 / +2 sells for exalts; later +3 is the standard because quality lifts it to +4. Remaining mods should support the skill type — a +3 spell amulet wants spell damage / mana, a +3 melee amulet wants attack or defensive stats.",
+  "cites": []
+ },
+ {
+  "id": "principle//bases",
+  "channel": "",
+  "theme": "Amulets 31:10 1 2 3 4 5",
+  "claim": "Bases",
+  "detail": "32:51 — Absent Amulet grants a free spirit skill at the cost of one prefix and one suffix; value hinges on matching the skill to the +levels (Rhoa Mount is dead on a +3 spell amulet and excellent on a +3 projectile one). Some granted skills would cost 100 Spirit, so 50 Spirit on the amulet behaves like 150 — he expects a nerf before 1.0 (Keyson flags the same). Gold / Solar are the general-purpose fallbacks: Gold stacks rarity, Solar adds Spirit; still popular and profitable.",
+  "cites": []
+ },
+ {
+  "id": "principle//shields",
+  "channel": "",
+  "theme": "Shields and quivers 34:20",
+  "claim": "Shields:",
+  "detail": "armour, as much as possible — the base is simply whichever has the highest pure armour; physical damage reduction is the one suffix that matters.",
+  "cites": []
+ },
+ {
+  "id": "principle//quivers",
+  "channel": "",
+  "theme": "Shields and quivers 34:20",
+  "claim": "Quivers:",
+  "detail": "suffix-driven — crit chance and crit damage bonus for attacks , plus +level of projectile skills . Visceral Quiver is the base. He leaves the rest as an exercise — by this point the pattern should be recognisable.",
+  "cites": []
+ },
+ {
+  "id": "principle//jewels-take-only-2-prefixes-2-suffixes-value-order-ruby-emer",
+  "channel": "",
+  "theme": "Jewels 35:03 1 2",
+  "claim": "Jewels take only 2 prefixes + 2 suffixes. Value order: Ruby < Emerald < Sapphire",
+  "detail": ", because Sapphire's crit mods apply to everything while Emerald's are attack-only. Diamonds (reforge one of each) draw from all three pools and can price \"to the absolute moon.\"",
+  "cites": []
+ },
+ {
+  "id": "principle//sapphire",
+  "channel": "",
+  "theme": "Jewels 35:03 1 2",
+  "claim": "Sapphire:",
+  "detail": "Suffix crit chance + crit damage bonus (incl. spell-crit variants) is the combo that sells; then recover mana on kill, cast speed, stun threshold from ES. Prefix : any decent one (ES, elemental damage), but with 5-mod jewels easy right now the increased effect of suffixes craft is the prefix to have. Minion sapphires exist and sell; he doesn't know that pool. Emerald: same rules — crit mods + attack speed, with attack / projectile damage prefixes. Ruby: niche while maces are weak — max rage, rage on melee hit, melee damage, global phys.",
+  "cites": []
+ },
+ {
+  "id": "principle//time-lost-variants",
+  "channel": "",
+  "theme": "Jewels 35:03 1 2",
+  "claim": "Time-Lost variants:",
+  "detail": "same mods, but bonuses come from the small / notable passives in radius; crit mods still lead, and the extra suffix to want is increased effect of notable passives . The radius → very large craft is \"absolutely insane\" right now.",
+  "cites": []
+ },
+ {
+  "id": "principle//profit-warning",
+  "channel": "",
+  "theme": "Jewels 35:03 1 2",
+  "claim": "Profit warning:",
+  "detail": "with so many five-mod crafting videos out, a fully crafted jewel often costs the same to buy as to craft — check the finished-jewel price before you start. He expects a nerf to 5-mod jewels before 1.0 but thinks the valuable mods will stay the same.",
+  "cites": []
+ },
+ {
+  "id": "principle//agreement-is-near-total-with-keysons-slot-breakdown",
+  "channel": "",
+  "theme": "How this squares with the channels below",
+  "claim": "Agreement is near-total with Keyson's slot breakdown",
+  "detail": ": attack-weapon prefixes are everything; caster weapons are levels / cast speed / crit; ES is king on helmets with crit chance and minion levels as the premium suffixes; Raven's Touch two-socket helmet bases; amulets are worthless without skill levels and multiply with Spirit; belts die around week two; jewels are crit + crit; Absent amulets are a nerf candidate.",
+  "cites": [
+   "y6ln-G4QWqo"
+  ]
+ },
+ {
+  "id": "principle//movement-speed-on-boots-is-a-value-add-not-a-requirement",
+  "channel": "",
+  "theme": "How this squares with the channels below",
+  "claim": "Movement speed on boots is a value add, not a requirement.",
+  "detail": "LilBotQ: a 30–35% roll alone makes a pair worth something. Keyson: no-MS boots sell fine (40-div no-MS boots, 60-div Sekhema sandals) because Whirling-Slash and Temporalis builds port everywhere. Both hold — price MS as a premium, don't treat its absence as a brick.",
+  "cites": []
+ },
+ {
+  "id": "principle//body-armour-has-two-separate-price-multipliers",
+  "channel": "",
+  "theme": "How this squares with the channels below",
+  "claim": "Body armour has two separate price multipliers.",
+  "detail": "LilBotQ names flat Spirit (T1 60) as the mod that skyrockets price; Keyson names deflection / spirit-reservation-efficiency as the \"straight to the moon\" multiplier on EV/ES bases. Complementary, not conflicting — both sit on a base whose defenses are already maxed, and minion builds always want the Spirit prefix.",
+  "cites": []
+ },
+ {
+  "id": "principle//what-sells-is-not-what-to-roll",
+  "channel": "",
+  "theme": "How this squares with the channels below",
+  "claim": "\"What sells\" is not \"what to roll.\"",
+  "detail": "LilBotQ ranks martial-weapon mods by value; Keyson's Stop crafting attack weapons shows those exact mods (T1 fire 0.17%, %phys 0.056%, crit 0.2%) compound to sub-1-in-10,000 odds. Read together: use this block to price and pick up weapons, and put crafting capital into armour / jewellery / jewels unless you're an expert.",
+  "cites": [
+   "Eb4y_uvj6is"
+  ]
+ },
+ {
+  "id": "principle//rings-lilbotq-adds-an-ordering-inside-keysons-triple-flats-t",
+  "channel": "",
+  "theme": "How this squares with the channels below",
+  "claim": "Rings: LilBotQ adds an ordering inside Keyson's \"triple flats\" target",
+  "detail": "— adds lightning to attacks first, because it rolls highest and enables shock for any build. ASaVeQ's attack-ring crafts above are the practical recipes for the same package.",
+  "cites": []
+ },
+ {
+  "id": "principle//new-this-league-from-lilbotq",
+  "channel": "",
+  "theme": "How this squares with the channels below",
+  "claim": "New this league from LilBotQ:",
+  "detail": "Gemini Bow lost its extra-arrow implicit (no longer best-in-slot); helmet rune mods are rage / melee themed and belong on armour bases; the \"increased explicit resistance magnitudes\" belt craft; the very-large-radius Time-Lost jewel craft.",
+  "cites": []
+ }
+]

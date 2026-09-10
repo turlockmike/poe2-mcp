@@ -1,0 +1,137 @@
+{
+ "rows": [
+  {
+   "slot": "Martial weapons 1:27",
+   "value-lives-in": "Prefix weapon DPS is the baseline everything else multiplies",
+   "top-mod-s": "% physical damage, then flat elemental adds; +level of skills as the luxury suffix",
+   "base-to-hunt": "Flying Spear · Warmonger / Obliterator Bow · Sinister Quarterstaff"
+  },
+  {
+   "slot": "Wands · Staves · Foci 9:31",
+   "value-lives-in": "Suffix the opposite of martial",
+   "top-mod-s": "+level of (fire / cold / lightning / all) spell skills, then cast speed and spell crit",
+   "base-to-hunt": "Dueling Wand (Spellslinger) · Tasalian Focus (highest ES)"
+  },
+  {
+   "slot": "Belts 16:09",
+   "value-lives-in": "Suffix resistances first",
+   "top-mod-s": "High resistance rolls; life / mana prefixes; \"increased explicit resistance magnitudes\" craft",
+   "base-to-hunt": "Heavy Belt (stun threshold)"
+  },
+  {
+   "slot": "Boots 17:23",
+   "value-lives-in": "Prefix defenses (+ movement speed)",
+   "top-mod-s": "3 defensive prefixes, or 2 + 30–35% move speed; +10–15 Spirit craft",
+   "base-to-hunt": "Energy shield / ES-evasion hybrid"
+  },
+  {
+   "slot": "Body armour 19:35",
+   "value-lives-in": "Prefix defenses + Spirit",
+   "top-mod-s": "Flat Spirit (up to 60 at T1), stacked defenses, resistances",
+   "base-to-hunt": "Energy shield; must be excellent to beat uniques"
+  },
+  {
+   "slot": "Helmets 21:27",
+   "value-lives-in": "Prefix but suffixes compete here",
+   "top-mod-s": "High ES + crit chance or +2 minion skills = very expensive",
+   "base-to-hunt": "Energy shield; two-socket \"exceptional\" bases (Raven's Touch)"
+  },
+  {
+   "slot": "Gloves 23:16",
+   "value-lives-in": "Offense the one armour slot where defenses don't lead",
+   "top-mod-s": "+level of projectile skills (rune-only) or +level of melee skills; adds damage to attacks",
+   "base-to-hunt": "Any base with good rolls; hybrid armour / evasion for melee"
+  },
+  {
+   "slot": "Rings 26:55",
+   "value-lives-in": "Prefix mods must work as a package",
+   "top-mod-s": "Adds lightning damage to attacks (attack) · mana + cast speed (caster) · +1 spell skills from the Genesis tree",
+   "base-to-hunt": "Gold Ring (triple rarity) · Pneumonic for mana builds"
+  },
+  {
+   "slot": "Amulets 31:10",
+   "value-lives-in": "Suffix two mods above everything",
+   "top-mod-s": "+3 level of skills (→ +4 with quality) and Spirit; both together 3–4× the price",
+   "base-to-hunt": "Absent Amulet (free spirit skill); Gold / Solar as fallback"
+  },
+  {
+   "slot": "Shields · Quivers 34:20",
+   "value-lives-in": "Armour value / Suffix",
+   "top-mod-s": "Shields: raw armour, phys damage reduction · Quivers: crit chance, crit bonus, +proj skills",
+   "base-to-hunt": "Highest pure-armour shield · Visceral Quiver"
+  },
+  {
+   "slot": "Jewels 35:03",
+   "value-lives-in": "Suffix 2 prefixes + 2 suffixes max",
+   "top-mod-s": "Crit chance + crit damage bonus; \"increased effect of suffixes\" as the prefix",
+   "base-to-hunt": "Sapphire > Emerald > Ruby; Diamond for the full pool"
+  }
+ ],
+ "notes": [
+  {
+   "slot": null,
+   "text": "Source: LilBotQ, What Modifiers Are Actually Good? Guide for Path of Exile 2 — 39:52, published 2026-09-03, 0.5 Runes of Aldur . card watch ▶ Timestamp chips jump into the video; numbered chips open the matching craft card on this page. Cross-checked against Keyson's Best selling stats in every slot 1 — where the two disagree it is called out in the last theme below."
+  },
+  {
+   "slot": null,
+   "text": "Every rare has up to 3 prefixes + 3 suffixes; the implicit is baked into the base and can't be changed. The whole guide reduces to one move: know which side of the item carries the value, then stack that side. Prefix Suffix Rune mark which side a mod lives on; rune mods are socket-bound this league (can't be removed) and grant mods obtainable nowhere else."
+  },
+  {
+   "slot": "Martial weapons",
+   "text": "Spears, bows, maces and quarterstaves share one mod pool, and the weapon's own DPS is the baseline every passive, jewel and support multiplies — so the prefixes that raise that number are where all the value is. Prefix order: % increased physical damage (king — phys converts through skill gems and feeds \"leech phys attack damage as life / mana\"), then adds flat lightning / fire / cold damage (the flat adds , not \"increased elemental damage with attacks\"; high flat rolls beat a weak %phys roll in use, though buyers still pay more for phys), then anything else that raises total weapon DPS. Suffixes are the \"luxury\" side. Suffix +level of projectile / melee / attack skills is the easiest damage scaler in the game; then +critical hit chance (it raises the weapon's base crit, so every later crit mod scales harder), then crit damage bonus, then increased attack speed — the only other suffix that adds real value. Dead weight: leech and attributes (fine to have, add nothing to price); % increased elemental damage (not the flat add, not what buyers pay for). The mantra: raise the baseline — weapon phys, weapon crit, weapon speed — every downstream multiplier reads off those numbers first. Bases 5:24 – 9:09 — Spears: Flying Spear (projectile-speed implicit doubles as a damage multiplier with Projectile Acceleration support — Twister builds); a 7%-base-crit spear (7% vs the normal 5%, reaching 12% fully rolled — the base name is garbled in the auto-captions, treat the name as unconfirmed); Soaring Spear as a niche movement stick (highest attacks-per-second, roll only attack speed, Whirling Slash around the map). Two-hand maces: no single standout — Ironwood Greathammer (top phys roll + stun-buildup implicit), Massive Greathammer (highest average phys), Sacred Maul (his favourite; 1.2 APS makes clunky mace skills feel smooth), plus the war-cry great club and Anvil Maul (crush on hit). Bows: Obliterator Bow (highest phys of any bow, at the cost of reduced projectile range), Warmonger Bow (next-highest phys, no range penalty); Gemini Bow lost its extra-arrow implicit and is no longer best-in-slot . One-hand maces: off-meta — Flail bases for extreme attack speed (Earthshatter, Boneshatter, movement), Strife Pick (+crit damage bonus implicit) or Fortified Hammer (chance to daze) for damage. Quarterstaves: Sinister Quarterstaff — highest base crit, and the Monk start sits next to the crit cluster."
+  },
+  {
+   "slot": "Caster weapons — wands, staves, foci",
+   "text": "The exact opposite of martial weapons: suffixes carry the value. Suffix +level of spell skills (fire / cold / lightning / all) is the one that matters; then cast speed , spell crit chance , spell crit damage bonus , in that order. Best-in-slot bench crafts: +1 to all spell skills · increased cast speed · gain % of elemental damage as extra cold. Dead weight: mana regeneration and the other suffixes (marginally useful, zero resale); the Prefix maximum-mana prefix (a \"gain as extra\" prefix is nearly always better); off-element damage (e.g. increased cold damage on a +fire-skills wand). Bases: Dueling Wand grants Spellslinger (trigger socketed spells) and is strong on almost every caster; almost any staff works, with Reaping Staff (Reap) and Chiming Staff (Sigil of Power) the desirable ones; Tasalian Focus for the highest ES — when profit-crafting, the ES delta alone can swing value by hundreds of divines (ASaVeQ's 400-ES vs 395-ES focus in the general principles above is the same effect)."
+  },
+  {
+   "slot": "Armour ground rules",
+   "text": "Base demand order: energy shield ≫ evasion / ES hybrid > pure armour ≈ pure evasion. ES is what casters and minion builds must use, and attack builds still want it, so it commands the highest prices; armour and evasion pieces still profit, just less on average. \"Defenses\" in every slot below means armour, evasion, energy shield or their hybrids. Life vs ES. On armour bases maximum life raises value; on ES bases the same life roll is unwanted — buyers want the ES maxed instead. On evasion gear, \"gain deflection rating equal to evasion rating\" is almost always a big value add. Runic Ward 14:01 — an extra life pool crafted via the Verisium anvil; it trades some armour / evasion / ES for Ward and unlocks Kalguuran skills. Almost always: Sovereign Alloy for the \"increased Runic Ward\" prefix, then the normal good mods. Boots and gloves are the rares that sell for Ward crafting; helmets barely do, and uniques own the body-armour slot. Rarity adds value only if the rest of the item is already good. A piece whose only merit is rarity sells for nothing; a strong piece with rarity on top sells for a lot more."
+  },
+  {
+   "slot": "Belts",
+   "text": "The simplest slot: resistances, then life and mana. Judge a belt on its Suffix resistance rolls first; Prefix maximum life and maximum mana next. The \"increased explicit resistance modifier magnitudes\" craft is very strong early league — but only on a belt whose resistances are already high. Heavy Belt (increased stun threshold) is the best implicit, though implicits matter little here. Belts are an early-league item. As the league matures players move to Mageblood / Headhunter and rare belts become nearly worthless; Otherworldly / Genesis-tree belt mods for minion and spell builds are the niche exception and can sell for real currency. (Keyson dates the collapse to ~week two and calls it the slot to avoid entirely.)"
+  },
+  {
+   "slot": "Boots",
+   "text": "Learn boots by their dead mods first, then stack defenses, resistances and movement speed. Prefix target: three defensive mods (e.g. increased ES + hybrid ES + flat ES) or two defensive mods plus movement speed — a 30–35% roll alone makes a pair worth something. On ES boots maximum mana can stand in for one defensive prefix; on armour boots maximum life plays that role. Suffix : resistances and rarity. Rune skill effect duration · cooldown recovery · chance to not remove charges are big adds — but only on ES or ES / evasion bases. +10–15 Spirit is the standout bench craft; Spirit helps almost every build. Dead weight: reduced attribute requirements, shock duration, chill duration, life regeneration. Stun threshold and attributes are not useless, but won't make boots worth anything."
+  },
+  {
+   "slot": "Body armour",
+   "text": "Same defensive priorities as boots, with one big difference: body armour can roll flat Spirit as a prefix — up to 60 at tier 1 — and that mod alone can skyrocket the price. Want: Prefix flat Spirit, stacked defenses, resistances. Rune mods are mostly strong but must be coherent — a rune mod granting increased max mana wants a flat-mana prefix beside it, not maximum life. He calls chest the most interesting niche-crafting slot in the game and recommends reading the whole rune-exclusive list. Dead weight: life regeneration, stun threshold, thorns, reduced-duration mods. The slot competes with strong uniques, so rares sell slowly and only when the mods are genuinely high-tier; no bench craft stands out the way Spirit does on boots."
+  },
+  {
+   "slot": "Helmets",
+   "text": "Prioritise defensive prefixes, but this is the slot where suffixes actually compete: an ES helmet with crit chance or +2 minion skills is worth \"an absolute ton,\" scaling with the ES number. Prefix energy shield (most other builds run unique helmets, so ES rares are where the money is); Suffix resistances, critical hit chance , +level of minion skills . Two-socket \"exceptional\" bases are in demand — Raven's Touch shards let you anoint a notable through a socketed helmet. Dead weight: life regeneration, accuracy. Rune mods here are almost all rage / melee themed — valuable on strength (armour) bases ~95% of the time, niche otherwise (max-rage is the callout). No bench craft consistently adds value."
+  },
+  {
+   "slot": "Gloves",
+   "text": "The one armour slot where you don't lead with defenses — gloves roll so much offense that buyers trade survivability for damage. The two mods that make gloves expensive: +level of projectile skills Rune (also boosts every spell with the projectile tag) or +level of melee skills . Attack builds: Prefix adds damage to attacks next, then attack speed. Projectile casters: projectile speed, projectile damage, maximum mana; non-projectile casters fall back to ES / defenses. Bench crafts are all good suffixes (cast speed, crit damage bonus, effect of socketed augments) — lock one so crafting can keep hunting +skill levels. Rarity is one of the few \"average\" mods that reliably adds value here. Meh: resistances, life / mana leech — nice, never what makes gloves expensive. Because defenses are low anyway, every base type can profit with good rolls: his worked example is an exceptional hybrid armour / evasion base with +2 melee skills, flat damages and crit bonus selling for hundreds of divines — the same mods on armour boots would not."
+  },
+  {
+   "slot": "Jewellery: quality and rarity first",
+   "text": "Jewellery sits a tier above armour because every build depends on it. Essence of the Breach pushes quality past 20%, and quality scales the best mods — a +3 skill-level roll becomes +4. For high-end crafting apply quality first (strip it later if needed); it can double or triple profit. Rings can roll rarity as prefix and suffix, on top of a rarity implicit — on rings, rarity almost always increases value."
+  },
+  {
+   "slot": "Rings",
+   "text": "The biggest mistake is judging mods one at a time — a ring's mods have to work as a package : lightning-to-attacks next to phys-to-attacks, not next to maximum mana. Attack rings: Prefix adds lightning damage to attacks is the top mod — it rolls higher than the other flats and lets any build shock (enemies take 20% more damage), even a fire melee build; other adds damage to attacks beat \"increased fire / cold damage\" by a wide margin under PoE2 scaling. Suffix : resistances (high rolls less mandatory than the prefixes), life / mana leech, high attributes for gear requirements, rarity as a bonus. The increased-attack-speed craft adds little value itself but is useful for cleaning up an incoherent affix. Caster rings: traditional — maximum mana, increased mana, mana regen, cast speed, resistances; strength / life aren't bad since many casters cast from life. Desecrated increased spell damage while on full energy shield is a massive boost. Genesis tree (Breach) +1 level of spell skills is exceptionally rare and sells for hundreds of divines — these mods have made plain caster rings from two or three leagues ago far less valuable. Bases 30:23 — anything sells early; as the economy matures only bases without weak implicits hold value. Gold Ring is the top drop-anywhere base (triple rarity on one is worth a ton); Pneumonic rings (Breach tree) for mana builds; resistance implicits are solid early, unremarkable later."
+  },
+  {
+   "slot": "Amulets",
+   "text": "Two mods above everything: +level of skills, then Spirit. Both together sell for three to four times a skill-level-only amulet. Suffix +level of skills (projectile / melee / spell / minion): early league +1 / +2 sells for exalts; later +3 is the standard because quality lifts it to +4. Remaining mods should support the skill type — a +3 spell amulet wants spell damage / mana, a +3 melee amulet wants attack or defensive stats. Bases 32:51 — Absent Amulet grants a free spirit skill at the cost of one prefix and one suffix; value hinges on matching the skill to the +levels (Rhoa Mount is dead on a +3 spell amulet and excellent on a +3 projectile one). Some granted skills would cost 100 Spirit, so 50 Spirit on the amulet behaves like 150 — he expects a nerf before 1.0 (Keyson flags the same). Gold / Solar are the general-purpose fallbacks: Gold stacks rarity, Solar adds Spirit; still popular and profitable."
+  },
+  {
+   "slot": "Shields and quivers",
+   "text": "Shields: armour, as much as possible — the base is simply whichever has the highest pure armour; physical damage reduction is the one suffix that matters. Quivers: suffix-driven — crit chance and crit damage bonus for attacks , plus +level of projectile skills . Visceral Quiver is the base. He leaves the rest as an exercise — by this point the pattern should be recognisable."
+  },
+  {
+   "slot": "Jewels",
+   "text": "Jewels take only 2 prefixes + 2 suffixes. Value order: Ruby < Emerald < Sapphire , because Sapphire's crit mods apply to everything while Emerald's are attack-only. Diamonds (reforge one of each) draw from all three pools and can price \"to the absolute moon.\" Sapphire: Suffix crit chance + crit damage bonus (incl. spell-crit variants) is the combo that sells; then recover mana on kill, cast speed, stun threshold from ES. Prefix : any decent one (ES, elemental damage), but with 5-mod jewels easy right now the increased effect of suffixes craft is the prefix to have. Minion sapphires exist and sell; he doesn't know that pool. Emerald: same rules — crit mods + attack speed, with attack / projectile damage prefixes. Ruby: niche while maces are weak — max rage, rage on melee hit, melee damage, global phys. Time-Lost variants: same mods, but bonuses come from the small / notable passives in radius; crit mods still lead, and the extra suffix to want is increased effect of notable passives . The radius → very large craft is \"absolutely insane\" right now. Profit warning: with so many five-mod crafting videos out, a fully crafted jewel often costs the same to buy as to craft — check the finished-jewel price before you start. He expects a nerf to 5-mod jewels before 1.0 but thinks the valuable mods will stay the same."
+  },
+  {
+   "slot": "How this squares with the channels below",
+   "text": "Agreement is near-total with Keyson's slot breakdown : attack-weapon prefixes are everything; caster weapons are levels / cast speed / crit; ES is king on helmets with crit chance and minion levels as the premium suffixes; Raven's Touch two-socket helmet bases; amulets are worthless without skill levels and multiply with Spirit; belts die around week two; jewels are crit + crit; Absent amulets are a nerf candidate. Movement speed on boots is a value add, not a requirement. LilBotQ: a 30–35% roll alone makes a pair worth something. Keyson: no-MS boots sell fine (40-div no-MS boots, 60-div Sekhema sandals) because Whirling-Slash and Temporalis builds port everywhere. Both hold — price MS as a premium, don't treat its absence as a brick. Body armour has two separate price multipliers. LilBotQ names flat Spirit (T1 60) as the mod that skyrockets price; Keyson names deflection / spirit-reservation-efficiency as the \"straight to the moon\" multiplier on EV/ES bases. Complementary, not conflicting — both sit on a base whose defenses are already maxed, and minion builds always want the Spirit prefix. \"What sells\" is not \"what to roll.\" LilBotQ ranks martial-weapon mods by value; Keyson's Stop crafting attack weapons shows those exact mods (T1 fire 0.17%, %phys 0.056%, crit 0.2%) compound to sub-1-in-10,000 odds. Read together: use this block to price and pick up weapons, and put crafting capital into armour / jewellery / jewels unless you're an expert. Rings: LilBotQ adds an ordering inside Keyson's \"triple flats\" target — adds lightning to attacks first, because it rolls highest and enables shock for any build. ASaVeQ's attack-ring crafts above are the practical recipes for the same package. New this league from LilBotQ: Gemini Bow lost its extra-arrow implicit (no longer best-in-slot); helmet rune mods are rage / melee themed and belong on armour bases; the \"increased explicit resistance magnitudes\" belt craft; the very-large-radius Time-Lost jewel craft."
+  }
+ ],
+ "source": "Source: LilBotQ, What Modifiers Are Actually Good? Guide for Path of Exile 2 — 39:52, published 2026-09-03, 0.5 Runes of Aldur . card watch ▶ Timestamp chips jump into the video; numbered chips open the matching craft card on this page. Cross-checked against Keyson's Best selling stats in every slot 1 — where the two disagree it is called out in the last theme below."
+}

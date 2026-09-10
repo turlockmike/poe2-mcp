@@ -367,3 +367,9 @@ data/extracted_passive_stats.json
 data/merged_passive_tree.json
 data/fresh_gamedata/
 scripts/integration_test.py
+
+# runtime scratch the server writes on startup (never commit)
+data/complete_models/all_ascendancies.json
+data/complete_models/passive_tree_complete.json
+data/extracted_mod_stats.json
+data/version.json
